@@ -20,6 +20,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -255,8 +256,12 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="s35" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="s76" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="s106" min="-2" max="-2" attributes="0"/>
+                          </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="s59" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -270,7 +275,6 @@
                                   <Component id="s140" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s29" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s70" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s76" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s26" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s21" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s104" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -279,42 +283,45 @@
                                   <Component id="s113" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s129" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s35" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s124" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s34" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s53" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s106" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s37" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s58" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s49" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s38" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s133" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s31" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s57" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s14" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s121" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s32" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s107" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s8" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s117" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s52" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s125" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s95" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="s124" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s34" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s53" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s58" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s133" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s57" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s14" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s121" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s107" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s8" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s117" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s52" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s95" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s37" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s49" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s38" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s56" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="s5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
-                          <Component id="s56" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="s43" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
-                              <Component id="s108" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Component id="s43" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="s18" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s60" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -335,35 +342,51 @@
                                   <Component id="s109" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s115" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="s89" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s125" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s63" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s28" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s30" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s23" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s119" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s90" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s114" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s130" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s33" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s54" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s105" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s142" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s9" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s135" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s40" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s131" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s134" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s48" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                      <Component id="btnDiagnosticar" min="-2" max="-2" attributes="0"/>
-                                      <Component id="s99" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="s63" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s28" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s30" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s23" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s134" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                              <Component id="btnDiagnosticar" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Component id="s119" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s90" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s114" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                              <Component id="s130" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s33" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s54" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s105" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s142" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s48" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s9" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s135" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s40" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s131" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s108" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
                                   </Group>
                               </Group>
                           </Group>
-                          <Component id="s7" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -376,7 +399,6 @@
                           <Component id="s110" min="-2" max="-2" attributes="0"/>
                           <Component id="s27" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s82" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="s24" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s111" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s103" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s22" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -388,75 +410,52 @@
                           <Component id="s55" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s67" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s101" min="-2" max="-2" attributes="0"/>
+                          <Component id="s99" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="s96" min="-2" max="-2" attributes="0"/>
-                          <Component id="s145" min="-2" max="-2" attributes="0"/>
-                          <Component id="s16" min="-2" max="-2" attributes="0"/>
-                          <Component id="s139" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s45" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s25" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s141" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s77" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s79" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s100" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s47" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s97" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s64" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s128" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="s92" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s132" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s10" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s68" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s86" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s39" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s94" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s72" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s85" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s88" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="s51" min="-2" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="s6" min="-2" max="-2" attributes="0"/>
-                                              <Group type="102" attributes="0">
-                                                  <Component id="s74" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Component id="s93" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Component id="s20" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="s13" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="s69" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s77" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s100" min="-2" max="-2" attributes="0"/>
+                          <Component id="s47" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s128" min="-2" max="-2" attributes="0"/>
+                          <Component id="s96" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="s4" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s44" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s138" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s71" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s137" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <Component id="s139" min="-2" max="-2" attributes="0"/>
+                          <Component id="s145" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s16" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s69" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s20" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s79" min="-2" max="-2" attributes="0"/>
+                          <Component id="s64" min="-2" max="-2" attributes="0"/>
+                          <Component id="s1" min="-2" max="-2" attributes="0"/>
+                          <Component id="s138" min="-2" max="-2" attributes="0"/>
+                          <Component id="s44" min="-2" max="-2" attributes="0"/>
+                          <Component id="s13" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s45" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s25" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s141" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s24" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="s12" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s39" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s94" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s72" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s85" min="-2" max="-2" attributes="0"/>
+                          <Component id="s88" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s92" min="-2" max="-2" attributes="0"/>
+                          <Component id="s10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s68" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s86" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s132" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s71" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s137" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s51" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s93" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="s74" min="-2" max="-2" attributes="0"/>
+                          <Component id="s97" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -467,392 +466,468 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="s137" min="-2" pref="25" max="-2" attributes="0"/>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="s120" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s95" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s117" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s127" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s14" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s73" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s52" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s136" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s59" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s57" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s43" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s108" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s116" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s45" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s74" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s126" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s133" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s61" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s107" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
+                                              <Component id="s7" pref="0" max="32767" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s118" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s19" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s31" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
                                           </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
-                                              <Component id="s2" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s18" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s131" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s17" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s60" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s40" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s110" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s98" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s135" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s101" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s25" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s93" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s141" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s51" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s13" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s6" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="s9" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s62" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s44" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s137" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="s50" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                              <Component id="s48" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="s55" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s59" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s97" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s99" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="s83" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="s32" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="s138" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s71" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s78" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s121" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s65" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s142" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="s125" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="s56" min="-2" max="-2" attributes="0"/>
                                               </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="s104" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s126" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="s26" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s61" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s118" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                                      <Component id="s19" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s74" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s93" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s51" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s6" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                                                      <Component id="s54" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s45" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s25" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s141" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s13" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="s21" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s33" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="s123" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s130" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="s44" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="s83" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="s62" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="s100" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s20" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s92" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="s116" min="-2" max="-2" attributes="0"/>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="s108" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="103" groupAlignment="3" attributes="0">
+                                                          <Component id="s17" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                                          <Component id="s131" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="s43" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                                      <Component id="s18" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s64" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="s110" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s101" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
+                                                          <Component id="s9" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="s40" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s135" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                                          <Component id="s2" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="s60" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s98" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
                                               </Group>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s57" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s133" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s107" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s8" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                              <Component id="s31" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="s138" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s48" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                                  <Component id="s120" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="s50" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="s65" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="s78" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s104" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s26" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s21" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s123" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="s36" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s113" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s129" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="150" pref="150" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="s71" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s55" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s32" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="s132" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s92" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s10" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="s68" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
                                               <Component id="s86" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
+                                              <Component id="s100" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <Component id="s36" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="s20" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="s3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s64" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="s53" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                                      <Component id="s1" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="s34" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s79" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="s12" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s39" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s94" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s72" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s85" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s88" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="s47" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s128" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s96" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="75" pref="75" max="-2" attributes="0"/>
+                                                      <Component id="s4" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="s124" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s113" min="-2" max="-2" attributes="0"/>
-                                              </Group>
+                                              <Component id="s69" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="s129" min="-2" max="-2" attributes="0"/>
+                                              <Component id="s145" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s16" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s139" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <Component id="s58" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="s15" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s5" alignment="1" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" attributes="0">
-                                      <Component id="s91" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="s66" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="s84" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="s41" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="s23" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s81" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s80" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s142" alignment="1" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="s114" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s46" alignment="1" min="-2" pref="25" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s90" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s22" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="s119" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="s102" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="s143" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="s109" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="s115" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="s89" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="150" pref="150" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="s132" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="s105" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
                                               <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
                                               <Component id="s29" min="-2" pref="25" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="s30" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="s140" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="s38" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="s28" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="s35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="s49" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="s134" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="s70" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="s37" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="s76" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="s106" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Component id="s63" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
                                           </Group>
                                           <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="102" attributes="0">
                                                       <Component id="s112" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
                                                       <Component id="s87" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s67" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
+                                                      <Component id="s67" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s42" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s79" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Group type="103" groupAlignment="3" attributes="0">
-                                                          <Component id="s103" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="s47" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="s128" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s42" min="-2" max="-2" attributes="0"/>
                                                   </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                                          <Component id="s54" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s33" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s130" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="s105" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                                                          <Component id="s46" min="-2" pref="25" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s22" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="s103" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="75" pref="75" max="-2" attributes="0"/>
+                                                          <Component id="s75" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="s114" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s11" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s90" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s119" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="s102" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
-                                                      <Component id="s12" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                                      <Component id="s82" min="-2" max="-2" attributes="0"/>
                                                       <EmptySpace max="-2" attributes="0"/>
-                                                      <Component id="s39" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="s122" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s27" min="-2" max="-2" attributes="0"/>
                                                   </Group>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s96" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s94" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="s72" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s69" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s85" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s82" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s145" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s88" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s122" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s27" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s139" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="103" groupAlignment="3" attributes="0">
-                                                  <Component id="s111" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="s77" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="s80" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="s75" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="s4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="s95" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="s121" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="s127" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                              <Component id="s73" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s136" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="s117" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                              <Component id="s14" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s52" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="s91" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s66" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s84" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="s41" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                      <Component id="s23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                                                          <Component id="s30" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s28" min="-2" pref="25" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="s134" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Group type="103" groupAlignment="3" attributes="0">
+                                                          <Component id="s81" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="s5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="s38" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="s49" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                                              <Component id="s37" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="s143" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="s109" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="s115" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="s15" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s140" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="s35" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                                      <Component id="s70" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="s53" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="s34" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="s124" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="s58" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
                                   </Group>
                               </Group>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s125" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s56" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s97" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="s89" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s106" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s76" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="s99" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="s24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="s111" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s77" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="s63" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                               <Component id="btnDiagnosticar" pref="54" max="32767" attributes="0"/>
                           </Group>
                       </Group>
