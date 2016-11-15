@@ -51,8 +51,8 @@ public class DatasetVista extends javax.swing.JFrame {
         jScrollPane3 = new javax.swing.JScrollPane();
         txtMensaje = new javax.swing.JTextArea();
         tituloMensaje = new javax.swing.JLabel();
-        panel1 = new java.awt.Panel();
-        s123 = new javax.swing.JRadioButton();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jPanel2 = new javax.swing.JPanel();
         s59 = new javax.swing.JRadioButton();
         s126 = new javax.swing.JRadioButton();
         s61 = new javax.swing.JRadioButton();
@@ -63,132 +63,133 @@ public class DatasetVista extends javax.swing.JFrame {
         s104 = new javax.swing.JRadioButton();
         s26 = new javax.swing.JRadioButton();
         s21 = new javax.swing.JRadioButton();
+        s123 = new javax.swing.JRadioButton();
         s36 = new javax.swing.JRadioButton();
         s3 = new javax.swing.JRadioButton();
-        s56 = new javax.swing.JRadioButton();
-        s15 = new javax.swing.JRadioButton();
+        s113 = new javax.swing.JRadioButton();
         s129 = new javax.swing.JRadioButton();
-        s76 = new javax.swing.JRadioButton();
+        s29 = new javax.swing.JRadioButton();
+        s15 = new javax.swing.JRadioButton();
         s140 = new javax.swing.JRadioButton();
         s35 = new javax.swing.JRadioButton();
         s70 = new javax.swing.JRadioButton();
-        s29 = new javax.swing.JRadioButton();
-        s113 = new javax.swing.JRadioButton();
-        s14 = new javax.swing.JRadioButton();
-        s5 = new javax.swing.JRadioButton();
-        s18 = new javax.swing.JRadioButton();
-        s37 = new javax.swing.JRadioButton();
-        s38 = new javax.swing.JRadioButton();
-        s34 = new javax.swing.JRadioButton();
-        s32 = new javax.swing.JRadioButton();
+        s76 = new javax.swing.JRadioButton();
+        s56 = new javax.swing.JRadioButton();
+        s57 = new javax.swing.JRadioButton();
+        s133 = new javax.swing.JRadioButton();
+        s107 = new javax.swing.JRadioButton();
+        s8 = new javax.swing.JRadioButton();
         s31 = new javax.swing.JRadioButton();
-        s43 = new javax.swing.JRadioButton();
-        s49 = new javax.swing.JRadioButton();
-        s50 = new javax.swing.JRadioButton();
+        s32 = new javax.swing.JRadioButton();
+        s121 = new javax.swing.JRadioButton();
+        s95 = new javax.swing.JRadioButton();
+        s14 = new javax.swing.JRadioButton();
+        s117 = new javax.swing.JRadioButton();
         s52 = new javax.swing.JRadioButton();
         s53 = new javax.swing.JRadioButton();
-        s57 = new javax.swing.JRadioButton();
-        s58 = new javax.swing.JRadioButton();
-        s60 = new javax.swing.JRadioButton();
-        s95 = new javax.swing.JRadioButton();
-        s98 = new javax.swing.JRadioButton();
-        s106 = new javax.swing.JRadioButton();
-        s107 = new javax.swing.JRadioButton();
-        s117 = new javax.swing.JRadioButton();
-        s121 = new javax.swing.JRadioButton();
-        s8 = new javax.swing.JRadioButton();
+        s34 = new javax.swing.JRadioButton();
         s124 = new javax.swing.JRadioButton();
+        s58 = new javax.swing.JRadioButton();
+        s5 = new javax.swing.JRadioButton();
+        s38 = new javax.swing.JRadioButton();
+        s49 = new javax.swing.JRadioButton();
+        s37 = new javax.swing.JRadioButton();
+        s106 = new javax.swing.JRadioButton();
         s125 = new javax.swing.JRadioButton();
-        s133 = new javax.swing.JRadioButton();
+        s43 = new javax.swing.JRadioButton();
+        s18 = new javax.swing.JRadioButton();
+        s60 = new javax.swing.JRadioButton();
+        s98 = new javax.swing.JRadioButton();
         s2 = new javax.swing.JRadioButton();
+        s50 = new javax.swing.JRadioButton();
+        s65 = new javax.swing.JRadioButton();
+        s120 = new javax.swing.JRadioButton();
+        s127 = new javax.swing.JRadioButton();
         s73 = new javax.swing.JRadioButton();
+        s136 = new javax.swing.JRadioButton();
+        s91 = new javax.swing.JRadioButton();
+        s66 = new javax.swing.JRadioButton();
+        s84 = new javax.swing.JRadioButton();
         s41 = new javax.swing.JRadioButton();
         s81 = new javax.swing.JRadioButton();
         s143 = new javax.swing.JRadioButton();
-        s127 = new javax.swing.JRadioButton();
-        s66 = new javax.swing.JRadioButton();
-        s91 = new javax.swing.JRadioButton();
-        s84 = new javax.swing.JRadioButton();
-        s120 = new javax.swing.JRadioButton();
-        s136 = new javax.swing.JRadioButton();
-        s65 = new javax.swing.JRadioButton();
-        s115 = new javax.swing.JRadioButton();
         s109 = new javax.swing.JRadioButton();
+        s115 = new javax.swing.JRadioButton();
         s89 = new javax.swing.JRadioButton();
         s7 = new javax.swing.JRadioButton();
         s108 = new javax.swing.JRadioButton();
         s131 = new javax.swing.JRadioButton();
-        s9 = new javax.swing.JRadioButton();
-        s33 = new javax.swing.JRadioButton();
         s40 = new javax.swing.JRadioButton();
-        s54 = new javax.swing.JRadioButton();
-        s48 = new javax.swing.JRadioButton();
-        s105 = new javax.swing.JRadioButton();
-        s130 = new javax.swing.JRadioButton();
         s135 = new javax.swing.JRadioButton();
+        s9 = new javax.swing.JRadioButton();
+        s48 = new javax.swing.JRadioButton();
         s142 = new javax.swing.JRadioButton();
-        s90 = new javax.swing.JRadioButton();
+        s105 = new javax.swing.JRadioButton();
+        s54 = new javax.swing.JRadioButton();
+        s33 = new javax.swing.JRadioButton();
+        s130 = new javax.swing.JRadioButton();
         s114 = new javax.swing.JRadioButton();
         s11 = new javax.swing.JRadioButton();
+        s90 = new javax.swing.JRadioButton();
         s119 = new javax.swing.JRadioButton();
-        s30 = new javax.swing.JRadioButton();
         s23 = new javax.swing.JRadioButton();
+        s30 = new javax.swing.JRadioButton();
         s28 = new javax.swing.JRadioButton();
-        s17 = new javax.swing.JRadioButton();
+        s134 = new javax.swing.JRadioButton();
         s63 = new javax.swing.JRadioButton();
+        s55 = new javax.swing.JRadioButton();
+        s46 = new javax.swing.JRadioButton();
+        s101 = new javax.swing.JRadioButton();
         s99 = new javax.swing.JRadioButton();
         s116 = new javax.swing.JRadioButton();
-        s134 = new javax.swing.JRadioButton();
+        s102 = new javax.swing.JRadioButton();
+        s87 = new javax.swing.JRadioButton();
+        s122 = new javax.swing.JRadioButton();
+        s103 = new javax.swing.JRadioButton();
+        s75 = new javax.swing.JRadioButton();
+        s17 = new javax.swing.JRadioButton();
+        s82 = new javax.swing.JRadioButton();
+        s112 = new javax.swing.JRadioButton();
         s42 = new javax.swing.JRadioButton();
-        s55 = new javax.swing.JRadioButton();
+        s110 = new javax.swing.JRadioButton();
         s62 = new javax.swing.JRadioButton();
         s67 = new javax.swing.JRadioButton();
         s80 = new javax.swing.JRadioButton();
-        s87 = new javax.swing.JRadioButton();
-        s101 = new javax.swing.JRadioButton();
-        s110 = new javax.swing.JRadioButton();
-        s112 = new javax.swing.JRadioButton();
-        s22 = new javax.swing.JRadioButton();
-        s46 = new javax.swing.JRadioButton();
-        s75 = new javax.swing.JRadioButton();
-        s103 = new javax.swing.JRadioButton();
-        s24 = new javax.swing.JRadioButton();
-        s25 = new javax.swing.JRadioButton();
-        s45 = new javax.swing.JRadioButton();
-        s27 = new javax.swing.JRadioButton();
-        s82 = new javax.swing.JRadioButton();
-        s102 = new javax.swing.JRadioButton();
-        s122 = new javax.swing.JRadioButton();
         s111 = new javax.swing.JRadioButton();
-        s20 = new javax.swing.JRadioButton();
-        s44 = new javax.swing.JRadioButton();
-        s47 = new javax.swing.JRadioButton();
+        s22 = new javax.swing.JRadioButton();
+        s27 = new javax.swing.JRadioButton();
+        s24 = new javax.swing.JRadioButton();
+        s45 = new javax.swing.JRadioButton();
+        s25 = new javax.swing.JRadioButton();
+        s141 = new javax.swing.JRadioButton();
         s13 = new javax.swing.JRadioButton();
+        s44 = new javax.swing.JRadioButton();
+        s138 = new javax.swing.JRadioButton();
+        s100 = new javax.swing.JRadioButton();
+        s20 = new javax.swing.JRadioButton();
         s64 = new javax.swing.JRadioButton();
         s1 = new javax.swing.JRadioButton();
         s79 = new javax.swing.JRadioButton();
-        s4 = new javax.swing.JRadioButton();
-        s100 = new javax.swing.JRadioButton();
-        s96 = new javax.swing.JRadioButton();
+        s47 = new javax.swing.JRadioButton();
         s128 = new javax.swing.JRadioButton();
-        s138 = new javax.swing.JRadioButton();
-        s141 = new javax.swing.JRadioButton();
+        s96 = new javax.swing.JRadioButton();
+        s4 = new javax.swing.JRadioButton();
+        s69 = new javax.swing.JRadioButton();
         s145 = new javax.swing.JRadioButton();
-        s139 = new javax.swing.JRadioButton();
         s16 = new javax.swing.JRadioButton();
+        s139 = new javax.swing.JRadioButton();
         s77 = new javax.swing.JRadioButton();
         s97 = new javax.swing.JRadioButton();
-        s69 = new javax.swing.JRadioButton();
+        s74 = new javax.swing.JRadioButton();
         s93 = new javax.swing.JRadioButton();
         s51 = new javax.swing.JRadioButton();
         s6 = new javax.swing.JRadioButton();
         s137 = new javax.swing.JRadioButton();
-        s132 = new javax.swing.JRadioButton();
-        s74 = new javax.swing.JRadioButton();
-        s92 = new javax.swing.JRadioButton();
-        s68 = new javax.swing.JRadioButton();
         s71 = new javax.swing.JRadioButton();
+        s132 = new javax.swing.JRadioButton();
+        s92 = new javax.swing.JRadioButton();
         s10 = new javax.swing.JRadioButton();
+        s68 = new javax.swing.JRadioButton();
         s86 = new javax.swing.JRadioButton();
         s12 = new javax.swing.JRadioButton();
         s39 = new javax.swing.JRadioButton();
@@ -196,8 +197,8 @@ public class DatasetVista extends javax.swing.JFrame {
         s72 = new javax.swing.JRadioButton();
         s85 = new javax.swing.JRadioButton();
         s88 = new javax.swing.JRadioButton();
-        btnDiagnosticar = new javax.swing.JButton();
         titulo = new javax.swing.JLabel();
+        btnDiagnosticar = new javax.swing.JButton();
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -267,7 +268,7 @@ public class DatasetVista extends javax.swing.JFrame {
                             .addComponent(btnEstadisticas, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnProbar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1235, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 598, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
@@ -277,7 +278,7 @@ public class DatasetVista extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(20, 20, 20)
                     .addComponent(btnEntrenar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(1262, Short.MAX_VALUE)))
+                    .addContainerGap(625, Short.MAX_VALUE)))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -288,7 +289,7 @@ public class DatasetVista extends javax.swing.JFrame {
                         .addComponent(btnProbar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnEstadisticas, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 282, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)
                         .addComponent(tituloMensaje)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -301,18 +302,10 @@ public class DatasetVista extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(21, 21, 21)
                     .addComponent(btnEntrenar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(528, Short.MAX_VALUE)))
+                    .addContainerGap(391, Short.MAX_VALUE)))
         );
 
         pestaniaPruebaVet.addTab("Análisis", jPanel1);
-
-        s123.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s123.setText("Borborigmos aumentados");
-        s123.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s123ActionPerformed(evt);
-            }
-        });
 
         s59.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s59.setText("Ácaros");
@@ -394,6 +387,14 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s123.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s123.setText("Borborigmos aumentados");
+        s123.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s123ActionPerformed(evt);
+            }
+        });
+
         s36.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s36.setText("Bradicardia");
         s36.addActionListener(new java.awt.event.ActionListener() {
@@ -410,19 +411,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s56.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s56.setText("Convulsiones");
-        s56.addActionListener(new java.awt.event.ActionListener() {
+        s113.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s113.setText("Cabeceo");
+        s113.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s56ActionPerformed(evt);
-            }
-        });
-
-        s15.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s15.setText("Cambio de color de pelo");
-        s15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s15ActionPerformed(evt);
+                s113ActionPerformed(evt);
             }
         });
 
@@ -434,11 +427,19 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s76.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s76.setText("Congestión ocular");
-        s76.addActionListener(new java.awt.event.ActionListener() {
+        s29.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s29.setText("Camina encorvado");
+        s29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s76ActionPerformed(evt);
+                s29ActionPerformed(evt);
+            }
+        });
+
+        s15.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s15.setText("Cambio de color de pelo");
+        s15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s15ActionPerformed(evt);
             }
         });
 
@@ -466,75 +467,51 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s29.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s29.setText("Camina encorvado");
-        s29.addActionListener(new java.awt.event.ActionListener() {
+        s76.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s76.setText("Congestión ocular");
+        s76.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s29ActionPerformed(evt);
+                s76ActionPerformed(evt);
             }
         });
 
-        s113.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s113.setText("Cabeceo");
-        s113.addActionListener(new java.awt.event.ActionListener() {
+        s56.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s56.setText("Convulsiones");
+        s56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s113ActionPerformed(evt);
+                s56ActionPerformed(evt);
             }
         });
 
-        s14.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s14.setText("Diarrea mal oliente");
-        s14.addActionListener(new java.awt.event.ActionListener() {
+        s57.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s57.setText("Debilidad");
+        s57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s14ActionPerformed(evt);
+                s57ActionPerformed(evt);
             }
         });
 
-        s5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s5.setText("Dificultad para respirar");
-        s5.addActionListener(new java.awt.event.ActionListener() {
+        s133.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s133.setText("Decaimiento");
+        s133.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s5ActionPerformed(evt);
+                s133ActionPerformed(evt);
             }
         });
 
-        s18.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s18.setText("Dolor en las orejas");
-        s18.addActionListener(new java.awt.event.ActionListener() {
+        s107.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s107.setText("Descamación");
+        s107.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s18ActionPerformed(evt);
+                s107ActionPerformed(evt);
             }
         });
 
-        s37.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s37.setText("Dolor abdominal");
-        s37.addActionListener(new java.awt.event.ActionListener() {
+        s8.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s8.setText("Deshidratación");
+        s8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s37ActionPerformed(evt);
-            }
-        });
-
-        s38.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s38.setText("Disminución de apetito");
-        s38.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s38ActionPerformed(evt);
-            }
-        });
-
-        s34.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s34.setText("Diarrea verdosa");
-        s34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s34ActionPerformed(evt);
-            }
-        });
-
-        s32.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s32.setText("Desnutrición");
-        s32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s32ActionPerformed(evt);
+                s8ActionPerformed(evt);
             }
         });
 
@@ -546,27 +523,43 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s43.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s43.setText("Dolor en orejas");
-        s43.addActionListener(new java.awt.event.ActionListener() {
+        s32.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s32.setText("Desnutrición");
+        s32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s43ActionPerformed(evt);
+                s32ActionPerformed(evt);
             }
         });
 
-        s49.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s49.setText("Dolor");
-        s49.addActionListener(new java.awt.event.ActionListener() {
+        s121.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s121.setText("Diarrea");
+        s121.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s49ActionPerformed(evt);
+                s121ActionPerformed(evt);
             }
         });
 
-        s50.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s50.setText("Duerme mucho");
-        s50.addActionListener(new java.awt.event.ActionListener() {
+        s95.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s95.setText("Diarrea amarilla");
+        s95.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s50ActionPerformed(evt);
+                s95ActionPerformed(evt);
+            }
+        });
+
+        s14.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s14.setText("Diarrea mal oliente");
+        s14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s14ActionPerformed(evt);
+            }
+        });
+
+        s117.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s117.setText("Diarrea con sangre");
+        s117.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s117ActionPerformed(evt);
             }
         });
 
@@ -586,83 +579,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s57.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s57.setText("Debilidad");
-        s57.addActionListener(new java.awt.event.ActionListener() {
+        s34.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s34.setText("Diarrea verdosa");
+        s34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s57ActionPerformed(evt);
-            }
-        });
-
-        s58.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s58.setText("Dificultad para orinar");
-        s58.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s58ActionPerformed(evt);
-            }
-        });
-
-        s60.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s60.setText("Dolor lumbar");
-        s60.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s60ActionPerformed(evt);
-            }
-        });
-
-        s95.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s95.setText("Diarrea amarilla");
-        s95.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s95ActionPerformed(evt);
-            }
-        });
-
-        s98.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s98.setText("Dolor renal");
-        s98.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s98ActionPerformed(evt);
-            }
-        });
-
-        s106.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s106.setText("Dolor abdominal craneal");
-        s106.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s106ActionPerformed(evt);
-            }
-        });
-
-        s107.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s107.setText("Descamación");
-        s107.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s107ActionPerformed(evt);
-            }
-        });
-
-        s117.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s117.setText("Diarrea con sangre");
-        s117.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s117ActionPerformed(evt);
-            }
-        });
-
-        s121.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s121.setText("Diarrea");
-        s121.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s121ActionPerformed(evt);
-            }
-        });
-
-        s8.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s8.setText("Deshidratación");
-        s8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s8ActionPerformed(evt);
+                s34ActionPerformed(evt);
             }
         });
 
@@ -674,6 +595,54 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s58.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s58.setText("Dificultad para orinar");
+        s58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s58ActionPerformed(evt);
+            }
+        });
+
+        s5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s5.setText("Dificultad para respirar");
+        s5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s5ActionPerformed(evt);
+            }
+        });
+
+        s38.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s38.setText("Disminución de apetito");
+        s38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s38ActionPerformed(evt);
+            }
+        });
+
+        s49.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s49.setText("Dolor");
+        s49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s49ActionPerformed(evt);
+            }
+        });
+
+        s37.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s37.setText("Dolor abdominal");
+        s37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s37ActionPerformed(evt);
+            }
+        });
+
+        s106.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s106.setText("Dolor abdominal craneal");
+        s106.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s106ActionPerformed(evt);
+            }
+        });
+
         s125.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s125.setText("Dolor en la parte posterior");
         s125.addActionListener(new java.awt.event.ActionListener() {
@@ -682,11 +651,35 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s133.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s133.setText("Decaimiento");
-        s133.addActionListener(new java.awt.event.ActionListener() {
+        s43.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s43.setText("Dolor en orejas");
+        s43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s133ActionPerformed(evt);
+                s43ActionPerformed(evt);
+            }
+        });
+
+        s18.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s18.setText("Dolor en las orejas");
+        s18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s18ActionPerformed(evt);
+            }
+        });
+
+        s60.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s60.setText("Dolor lumbar");
+        s60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s60ActionPerformed(evt);
+            }
+        });
+
+        s98.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s98.setText("Dolor renal");
+        s98.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s98ActionPerformed(evt);
             }
         });
 
@@ -698,11 +691,75 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s50.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s50.setText("Duerme mucho");
+        s50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s50ActionPerformed(evt);
+            }
+        });
+
+        s65.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s65.setText("Ectoparásitos");
+        s65.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s65ActionPerformed(evt);
+            }
+        });
+
+        s120.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s120.setText("Eczema");
+        s120.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s120ActionPerformed(evt);
+            }
+        });
+
+        s127.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s127.setText("Eritema");
+        s127.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s127ActionPerformed(evt);
+            }
+        });
+
         s73.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s73.setText("Eritema en oídos");
         s73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s73ActionPerformed(evt);
+            }
+        });
+
+        s136.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s136.setText("Eritema en región dorso lumbar");
+        s136.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s136ActionPerformed(evt);
+            }
+        });
+
+        s91.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s91.setText("Erupciones ventrales");
+        s91.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s91ActionPerformed(evt);
+            }
+        });
+
+        s66.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s66.setText("Escamas en la piel");
+        s66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s66ActionPerformed(evt);
+            }
+        });
+
+        s84.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s84.setText("Estornudo");
+        s84.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s84ActionPerformed(evt);
             }
         });
 
@@ -730,59 +787,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s127.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s127.setText("Eritema");
-        s127.addActionListener(new java.awt.event.ActionListener() {
+        s109.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s109.setText("Fiebre");
+        s109.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s127ActionPerformed(evt);
-            }
-        });
-
-        s66.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s66.setText("Escamas en la piel");
-        s66.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s66ActionPerformed(evt);
-            }
-        });
-
-        s91.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s91.setText("Erupciones ventrales");
-        s91.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s91ActionPerformed(evt);
-            }
-        });
-
-        s84.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s84.setText("Estornudo");
-        s84.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s84ActionPerformed(evt);
-            }
-        });
-
-        s120.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s120.setText("Eczema");
-        s120.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s120ActionPerformed(evt);
-            }
-        });
-
-        s136.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s136.setText("Eritema en región dorso lumbar");
-        s136.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s136ActionPerformed(evt);
-            }
-        });
-
-        s65.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s65.setText("Ectoparásitos");
-        s65.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s65ActionPerformed(evt);
+                s109ActionPerformed(evt);
             }
         });
 
@@ -791,14 +800,6 @@ public class DatasetVista extends javax.swing.JFrame {
         s115.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s115ActionPerformed(evt);
-            }
-        });
-
-        s109.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s109.setText("Fiebre");
-        s109.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s109ActionPerformed(evt);
             }
         });
 
@@ -834,59 +835,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s9.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s9.setText("Heces con parásitos");
-        s9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s9ActionPerformed(evt);
-            }
-        });
-
-        s33.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s33.setText("Hiperqueratosis de los pulpejos");
-        s33.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s33ActionPerformed(evt);
-            }
-        });
-
         s40.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s40.setText("Heces blandas");
         s40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s40ActionPerformed(evt);
-            }
-        });
-
-        s54.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s54.setText("Hiperactividad");
-        s54.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s54ActionPerformed(evt);
-            }
-        });
-
-        s48.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s48.setText("Heces con sangre");
-        s48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s48ActionPerformed(evt);
-            }
-        });
-
-        s105.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s105.setText("Heces negras con pintas de sangre");
-        s105.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s105ActionPerformed(evt);
-            }
-        });
-
-        s130.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s130.setText("Hongos");
-        s130.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s130ActionPerformed(evt);
             }
         });
 
@@ -898,6 +851,22 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s9.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s9.setText("Heces con parásitos");
+        s9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s9ActionPerformed(evt);
+            }
+        });
+
+        s48.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s48.setText("Heces con sangre");
+        s48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s48ActionPerformed(evt);
+            }
+        });
+
         s142.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s142.setText("Heces negras");
         s142.addActionListener(new java.awt.event.ActionListener() {
@@ -906,11 +875,35 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s90.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s90.setText("Inflamación de ganglios faringeos");
-        s90.addActionListener(new java.awt.event.ActionListener() {
+        s105.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s105.setText("Heces negras con pintas de sangre");
+        s105.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s90ActionPerformed(evt);
+                s105ActionPerformed(evt);
+            }
+        });
+
+        s54.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s54.setText("Hiperactividad");
+        s54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s54ActionPerformed(evt);
+            }
+        });
+
+        s33.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s33.setText("Hiperqueratosis de los pulpejos");
+        s33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s33ActionPerformed(evt);
+            }
+        });
+
+        s130.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s130.setText("Hongos");
+        s130.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s130ActionPerformed(evt);
             }
         });
 
@@ -930,19 +923,19 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s90.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s90.setText("Inflamación de ganglios faringeos");
+        s90.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s90ActionPerformed(evt);
+            }
+        });
+
         s119.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s119.setText("Inflamación perianal");
         s119.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s119ActionPerformed(evt);
-            }
-        });
-
-        s30.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s30.setText("Jadeo");
-        s30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s30ActionPerformed(evt);
             }
         });
 
@@ -954,6 +947,14 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s30.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s30.setText("Jadeo");
+        s30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s30ActionPerformed(evt);
+            }
+        });
+
         s28.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s28.setText("Lagañas");
         s28.addActionListener(new java.awt.event.ActionListener() {
@@ -962,11 +963,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s17.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s17.setText("Letargo");
-        s17.addActionListener(new java.awt.event.ActionListener() {
+        s134.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s134.setText("Lesión en orejas");
+        s134.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s17ActionPerformed(evt);
+                s134ActionPerformed(evt);
             }
         });
 
@@ -975,6 +976,30 @@ public class DatasetVista extends javax.swing.JFrame {
         s63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s63ActionPerformed(evt);
+            }
+        });
+
+        s55.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s55.setText("Malestar general");
+        s55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s55ActionPerformed(evt);
+            }
+        });
+
+        s46.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s46.setText("No bebe agua");
+        s46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s46ActionPerformed(evt);
+            }
+        });
+
+        s101.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s101.setText("Mal olor");
+        s101.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s101ActionPerformed(evt);
             }
         });
 
@@ -994,11 +1019,67 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s134.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s134.setText("Lesión en orejas");
-        s134.addActionListener(new java.awt.event.ActionListener() {
+        s102.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s102.setText("Obesidad");
+        s102.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s134ActionPerformed(evt);
+                s102ActionPerformed(evt);
+            }
+        });
+
+        s87.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s87.setText("Mucosas congestionadas");
+        s87.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s87ActionPerformed(evt);
+            }
+        });
+
+        s122.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s122.setText("Ojo irritado");
+        s122.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s122ActionPerformed(evt);
+            }
+        });
+
+        s103.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s103.setText("Nariz seca");
+        s103.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s103ActionPerformed(evt);
+            }
+        });
+
+        s75.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s75.setText("No hace necesidades fisiológicas");
+        s75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s75ActionPerformed(evt);
+            }
+        });
+
+        s17.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s17.setText("Letargo");
+        s17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s17ActionPerformed(evt);
+            }
+        });
+
+        s82.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s82.setText("Oídos congestionados");
+        s82.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s82ActionPerformed(evt);
+            }
+        });
+
+        s112.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s112.setText("Molestia en garganta");
+        s112.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s112ActionPerformed(evt);
             }
         });
 
@@ -1010,11 +1091,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s55.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s55.setText("Malestar general");
-        s55.addActionListener(new java.awt.event.ActionListener() {
+        s110.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s110.setText("Mal aliento");
+        s110.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s55ActionPerformed(evt);
+                s110ActionPerformed(evt);
             }
         });
 
@@ -1042,35 +1123,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s87.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s87.setText("Mucosas congestionadas");
-        s87.addActionListener(new java.awt.event.ActionListener() {
+        s111.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s111.setText("Ojos rojos");
+        s111.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s87ActionPerformed(evt);
-            }
-        });
-
-        s101.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s101.setText("Mal olor");
-        s101.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s101ActionPerformed(evt);
-            }
-        });
-
-        s110.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s110.setText("Mal aliento");
-        s110.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s110ActionPerformed(evt);
-            }
-        });
-
-        s112.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s112.setText("Molestia en garganta");
-        s112.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s112ActionPerformed(evt);
+                s111ActionPerformed(evt);
             }
         });
 
@@ -1082,27 +1139,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s46.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s46.setText("No bebe agua");
-        s46.addActionListener(new java.awt.event.ActionListener() {
+        s27.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s27.setText("Ojos irritados");
+        s27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s46ActionPerformed(evt);
-            }
-        });
-
-        s75.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s75.setText("No hace necesidades fisiológicas");
-        s75.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s75ActionPerformed(evt);
-            }
-        });
-
-        s103.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s103.setText("Nariz seca");
-        s103.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s103ActionPerformed(evt);
+                s27ActionPerformed(evt);
             }
         });
 
@@ -1114,14 +1155,6 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s25.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s25.setText("Orina turbia");
-        s25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s25ActionPerformed(evt);
-            }
-        });
-
         s45.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s45.setText("Orina maloliente");
         s45.addActionListener(new java.awt.event.ActionListener() {
@@ -1130,51 +1163,27 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s27.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s27.setText("Ojos irritados");
-        s27.addActionListener(new java.awt.event.ActionListener() {
+        s25.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s25.setText("Orina turbia");
+        s25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s27ActionPerformed(evt);
+                s25ActionPerformed(evt);
             }
         });
 
-        s82.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s82.setText("Oídos congestionados");
-        s82.addActionListener(new java.awt.event.ActionListener() {
+        s141.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s141.setText("Pápulas");
+        s141.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s82ActionPerformed(evt);
+                s141ActionPerformed(evt);
             }
         });
 
-        s102.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s102.setText("Obesidad");
-        s102.addActionListener(new java.awt.event.ActionListener() {
+        s13.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s13.setText("Palidez");
+        s13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s102ActionPerformed(evt);
-            }
-        });
-
-        s122.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s122.setText("Ojo irritado");
-        s122.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s122ActionPerformed(evt);
-            }
-        });
-
-        s111.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s111.setText("Ojos rojos");
-        s111.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s111ActionPerformed(evt);
-            }
-        });
-
-        s20.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s20.setText("Piel enrojecida");
-        s20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s20ActionPerformed(evt);
+                s13ActionPerformed(evt);
             }
         });
 
@@ -1186,19 +1195,27 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s47.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s47.setText("Prurito");
-        s47.addActionListener(new java.awt.event.ActionListener() {
+        s138.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s138.setText("Pelo opaco");
+        s138.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s47ActionPerformed(evt);
+                s138ActionPerformed(evt);
             }
         });
 
-        s13.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s13.setText("Palidez");
-        s13.addActionListener(new java.awt.event.ActionListener() {
+        s100.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s100.setText("Pioderma");
+        s100.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s13ActionPerformed(evt);
+                s100ActionPerformed(evt);
+            }
+        });
+
+        s20.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s20.setText("Piel enrojecida");
+        s20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s20ActionPerformed(evt);
             }
         });
 
@@ -1226,27 +1243,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s4.setText("Pústulas");
-        s4.addActionListener(new java.awt.event.ActionListener() {
+        s47.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s47.setText("Prurito");
+        s47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s4ActionPerformed(evt);
-            }
-        });
-
-        s100.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s100.setText("Pioderma");
-        s100.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s100ActionPerformed(evt);
-            }
-        });
-
-        s96.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s96.setText("Pulgas");
-        s96.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s96ActionPerformed(evt);
+                s47ActionPerformed(evt);
             }
         });
 
@@ -1258,19 +1259,27 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s138.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s138.setText("Pelo opaco");
-        s138.addActionListener(new java.awt.event.ActionListener() {
+        s96.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s96.setText("Pulgas");
+        s96.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s138ActionPerformed(evt);
+                s96ActionPerformed(evt);
             }
         });
 
-        s141.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s141.setText("Pápulas");
-        s141.addActionListener(new java.awt.event.ActionListener() {
+        s4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s4.setText("Pústulas");
+        s4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s141ActionPerformed(evt);
+                s4ActionPerformed(evt);
+            }
+        });
+
+        s69.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s69.setText("Queratitis");
+        s69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s69ActionPerformed(evt);
             }
         });
 
@@ -1282,19 +1291,19 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s139.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s139.setText("Ronquidos");
-        s139.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s139ActionPerformed(evt);
-            }
-        });
-
         s16.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s16.setText("Ronchas");
         s16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s16ActionPerformed(evt);
+            }
+        });
+
+        s139.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s139.setText("Ronquidos");
+        s139.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s139ActionPerformed(evt);
             }
         });
 
@@ -1314,11 +1323,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s69.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s69.setText("Queratitis");
-        s69.addActionListener(new java.awt.event.ActionListener() {
+        s74.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s74.setText("Sarro leve");
+        s74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s69ActionPerformed(evt);
+                s74ActionPerformed(evt);
             }
         });
 
@@ -1354,19 +1363,19 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
+        s71.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s71.setText("Secreción salival abundante");
+        s71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s71ActionPerformed(evt);
+            }
+        });
+
         s132.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s132.setText("Sensibilidad abdominal");
         s132.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s132ActionPerformed(evt);
-            }
-        });
-
-        s74.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s74.setText("Sarro leve");
-        s74.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s74ActionPerformed(evt);
             }
         });
 
@@ -1378,27 +1387,19 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s68.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s68.setText("Sonidos respiratorios");
-        s68.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s68ActionPerformed(evt);
-            }
-        });
-
-        s71.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s71.setText("Secreción salival abundante");
-        s71.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s71ActionPerformed(evt);
-            }
-        });
-
         s10.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s10.setText("Serumen");
         s10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s10ActionPerformed(evt);
+            }
+        });
+
+        s68.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s68.setText("Sonidos respiratorios");
+        s68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s68ActionPerformed(evt);
             }
         });
 
@@ -1458,135 +1459,115 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        btnDiagnosticar.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
-        btnDiagnosticar.setText("Diagnosticar");
-        btnDiagnosticar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDiagnosticarActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
-        panel1.setLayout(panel1Layout);
-        panel1Layout.setHorizontalGroup(
-            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                        .addComponent(s76)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(s106))
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(s59)
-                            .addComponent(s126)
-                            .addComponent(s61)
-                            .addComponent(s118)
-                            .addComponent(s19)
-                            .addComponent(s83)
-                            .addComponent(s78)
-                            .addComponent(s123)
-                            .addComponent(s140)
-                            .addComponent(s29)
-                            .addComponent(s70)
-                            .addComponent(s26)
-                            .addComponent(s21)
-                            .addComponent(s104)
-                            .addComponent(s36)
-                            .addComponent(s3)
-                            .addComponent(s113)
-                            .addComponent(s129)
-                            .addComponent(s15)
-                            .addComponent(s35))
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addGap(41, 41, 41)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(s124)
-                                    .addComponent(s34)
-                                    .addComponent(s53)
-                                    .addComponent(s58)
-                                    .addComponent(s133)
-                                    .addComponent(s31)
-                                    .addComponent(s57)
-                                    .addComponent(s14)
-                                    .addComponent(s121)
-                                    .addComponent(s32)
-                                    .addComponent(s107)
-                                    .addComponent(s8)
-                                    .addComponent(s117)
-                                    .addComponent(s52)
-                                    .addComponent(s95)
-                                    .addComponent(s37)
-                                    .addComponent(s49)
-                                    .addComponent(s38)
-                                    .addComponent(s56))
-                                .addGap(6, 6, 6))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s5)))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(s59)
+                    .addComponent(s126)
+                    .addComponent(s61)
+                    .addComponent(s118)
+                    .addComponent(s19)
+                    .addComponent(s83)
+                    .addComponent(s78)
+                    .addComponent(s123)
+                    .addComponent(s140)
+                    .addComponent(s29)
+                    .addComponent(s70)
+                    .addComponent(s26)
+                    .addComponent(s21)
+                    .addComponent(s104)
+                    .addComponent(s36)
+                    .addComponent(s3)
+                    .addComponent(s113)
+                    .addComponent(s129)
+                    .addComponent(s15)
+                    .addComponent(s35)
+                    .addComponent(s76))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(s124)
+                                .addComponent(s34)
+                                .addComponent(s53)
+                                .addComponent(s58)
+                                .addComponent(s133)
+                                .addComponent(s31)
+                                .addComponent(s57)
+                                .addComponent(s14)
+                                .addComponent(s121)
+                                .addComponent(s32)
+                                .addComponent(s107)
+                                .addComponent(s8)
+                                .addComponent(s117)
+                                .addComponent(s52)
+                                .addComponent(s95)
+                                .addComponent(s37)
+                                .addComponent(s49)
+                                .addComponent(s38)
+                                .addComponent(s56))
+                            .addGap(6, 6, 6))
+                        .addComponent(s5, javax.swing.GroupLayout.Alignment.TRAILING))
+                    .addComponent(s106, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s125)
                     .addComponent(s43)
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(s18)
-                            .addComponent(s60)
-                            .addComponent(s98)
-                            .addComponent(s2)
-                            .addComponent(s50)
-                            .addComponent(s65)
-                            .addComponent(s120)
-                            .addComponent(s127)
-                            .addComponent(s73)
-                            .addComponent(s136)
-                            .addComponent(s91)
-                            .addComponent(s66)
-                            .addComponent(s84)
-                            .addComponent(s41)
-                            .addComponent(s81)
-                            .addComponent(s143)
-                            .addComponent(s109)
-                            .addComponent(s115)
-                            .addComponent(s89)
-                            .addComponent(s125))
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addGap(40, 40, 40)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(s63)
-                                    .addComponent(s28)
-                                    .addComponent(s30)
-                                    .addComponent(s23)
-                                    .addComponent(s134)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGap(2, 2, 2)
-                                        .addComponent(btnDiagnosticar)))
-                                .addGap(56, 56, 56))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(s119)
-                                        .addComponent(s90)
-                                        .addComponent(s114)
-                                        .addComponent(s11))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(s130)
-                                        .addComponent(s33)
-                                        .addComponent(s54)
-                                        .addComponent(s105)
-                                        .addComponent(s142)
-                                        .addComponent(s48)
-                                        .addComponent(s9)
-                                        .addComponent(s135)
-                                        .addComponent(s40)
-                                        .addComponent(s131)
-                                        .addComponent(s108)
-                                        .addComponent(s7)))))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s18)
+                    .addComponent(s60)
+                    .addComponent(s98)
+                    .addComponent(s2)
+                    .addComponent(s50)
+                    .addComponent(s73)
+                    .addComponent(s91)
+                    .addComponent(s66)
+                    .addComponent(s84)
+                    .addComponent(s41)
+                    .addComponent(s81)
+                    .addComponent(s143)
+                    .addComponent(s109)
+                    .addComponent(s115)
+                    .addComponent(s89)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(s120)
+                                .addComponent(s127))
+                            .addGap(120, 120, 120))
+                        .addComponent(s136)
+                        .addComponent(s65, javax.swing.GroupLayout.Alignment.LEADING)))
+                .addGap(42, 42, 42)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s63)
+                    .addComponent(s28)
+                    .addComponent(s30)
+                    .addComponent(s23)
+                    .addComponent(s134)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s119)
+                            .addComponent(s90)
+                            .addComponent(s114)
+                            .addComponent(s11))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s130)
+                            .addComponent(s33)
+                            .addComponent(s54)
+                            .addComponent(s105)
+                            .addComponent(s142)
+                            .addComponent(s48)))
+                    .addComponent(s135)
+                    .addComponent(s40)
+                    .addComponent(s131)
+                    .addComponent(s108)
+                    .addComponent(s7)
+                    .addComponent(s9))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s62)
                     .addComponent(s116)
                     .addComponent(s17)
                     .addComponent(s80)
@@ -1596,434 +1577,424 @@ public class DatasetVista extends javax.swing.JFrame {
                     .addComponent(s110)
                     .addComponent(s27)
                     .addComponent(s82)
-                    .addComponent(s111)
                     .addComponent(s103)
                     .addComponent(s22)
                     .addComponent(s122)
                     .addComponent(s102)
                     .addComponent(s46)
                     .addComponent(s75)
-                    .addComponent(s62)
-                    .addComponent(s55)
                     .addComponent(s67)
                     .addComponent(s101)
-                    .addComponent(s99))
-                .addGap(37, 37, 37)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s99)
+                    .addComponent(s55)
+                    .addComponent(s111))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(s77)
-                    .addComponent(s100)
-                    .addComponent(s47)
-                    .addComponent(s128)
-                    .addComponent(s96)
-                    .addComponent(s4)
                     .addComponent(s139)
-                    .addComponent(s145)
                     .addComponent(s16)
-                    .addComponent(s69)
-                    .addComponent(s20)
-                    .addComponent(s79)
-                    .addComponent(s64)
-                    .addComponent(s1)
-                    .addComponent(s138)
-                    .addComponent(s44)
-                    .addComponent(s13)
-                    .addComponent(s45)
-                    .addComponent(s25)
-                    .addComponent(s141)
-                    .addComponent(s24))
-                .addGap(46, 46, 46)
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(s12)
-                    .addComponent(s39)
-                    .addComponent(s94)
-                    .addComponent(s72)
-                    .addComponent(s85)
-                    .addComponent(s88)
-                    .addComponent(s92)
-                    .addComponent(s10)
-                    .addComponent(s68)
-                    .addComponent(s86)
-                    .addComponent(s132)
-                    .addComponent(s71)
-                    .addComponent(s137)
-                    .addComponent(s6)
-                    .addComponent(s51)
-                    .addComponent(s93)
-                    .addComponent(s74)
-                    .addComponent(s97))
-                .addContainerGap())
-        );
-        panel1Layout.setVerticalGroup(
-            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel1Layout.createSequentialGroup()
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(s137, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(s59)
-                                        .addComponent(s97)
-                                        .addComponent(s24)
-                                        .addComponent(s99))
-                                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(panel1Layout.createSequentialGroup()
-                                            .addComponent(s7, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(s125)
-                                            .addComponent(s56))))
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addComponent(s126)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s61)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s118)
-                                                .addGap(0, 0, 0)
-                                                .addComponent(s19))
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s74)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s93)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s51)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s6))
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addComponent(s45)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s25)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s141)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s13)))
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(s44))
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(s83)
-                                                    .addComponent(s62, javax.swing.GroupLayout.Alignment.TRAILING)))))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(s116)
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(s108)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                    .addComponent(s17, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(s131)))
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addComponent(s43)
-                                                .addGap(0, 0, 0)
-                                                .addComponent(s18)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addComponent(s110)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s101))
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addGap(50, 50, 50)
-                                                    .addComponent(s9))
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addComponent(s40)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s135)))
-                                            .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addGap(50, 50, 50)
-                                                    .addComponent(s2))
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addComponent(s60)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s98)))))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s57)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s133)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s107)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s8)
-                                        .addGap(0, 0, 0)
-                                        .addComponent(s31)))))
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(s138, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(s48, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addGap(100, 100, 100))
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                            .addGap(50, 50, 50)
-                                            .addComponent(s120))
-                                        .addGroup(panel1Layout.createSequentialGroup()
-                                            .addComponent(s50)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(s65)
-                                            .addGap(25, 25, 25)))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s78)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s104)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s26)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s21)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s123)))))
-                        .addComponent(s36)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s113)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s129)
-                        .addGap(125, 125, 125))
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGap(150, 150, 150)
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s138)
+                            .addComponent(s100)
+                            .addComponent(s47)
+                            .addComponent(s128)
+                            .addComponent(s96)
+                            .addComponent(s4)
+                            .addComponent(s145)
+                            .addComponent(s69)
+                            .addComponent(s20)
+                            .addComponent(s79)
+                            .addComponent(s64)
+                            .addComponent(s1)
+                            .addComponent(s44)
+                            .addComponent(s13)
+                            .addComponent(s45)
+                            .addComponent(s25)
+                            .addComponent(s141)
+                            .addComponent(s24))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s12)
+                            .addComponent(s39)
+                            .addComponent(s94)
+                            .addComponent(s72)
+                            .addComponent(s85)
+                            .addComponent(s88)
+                            .addComponent(s92)
+                            .addComponent(s10)
+                            .addComponent(s68)
+                            .addComponent(s86)
+                            .addComponent(s132)
                             .addComponent(s71)
-                            .addComponent(s55, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(s32, javax.swing.GroupLayout.Alignment.TRAILING))
+                            .addComponent(s137)
+                            .addComponent(s6)
+                            .addComponent(s51)
+                            .addComponent(s93)
+                            .addComponent(s74)
+                            .addComponent(s97))))
+                .addGap(0, 6, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(s125)
+                    .addComponent(s7))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(s43)
+                    .addComponent(s108))
+                .addGap(0, 0, 0)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(s18)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s132)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s92)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s10)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s68)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s86))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s100)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addComponent(s20)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s64))
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addGap(50, 50, 50)
-                                                .addComponent(s1)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s79)))))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(s2))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(s60)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s12)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s39)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s94)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s72)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s85)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s88))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addComponent(s47)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s128)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s96))
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addGap(75, 75, 75)
-                                                .addComponent(s4)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s69)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s145)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s16)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s139))))
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(s80)
-                                    .addComponent(s142, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGap(175, 175, 175)
-                                        .addComponent(s29, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addComponent(s112)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s87)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s67)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s42))
-                                            .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addGap(25, 25, 25)
-                                                    .addComponent(s54)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s33)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s130))
-                                                .addComponent(s105)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addGap(25, 25, 25)
-                                                    .addComponent(s46, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s22))
-                                                .addComponent(s103)
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addGap(75, 75, 75)
-                                                    .addComponent(s75)))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                                .addComponent(s114)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s11)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s90)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s119)))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(s102)
-                                            .addGroup(panel1Layout.createSequentialGroup()
-                                                .addGap(25, 25, 25)
-                                                .addComponent(s82)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s122)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s27))))))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                        .addGap(25, 25, 25)
-                                        .addComponent(s95))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s121)
-                                        .addGap(25, 25, 25)))
+                                .addComponent(s98))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(s131)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(s9))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(s40)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s127)
-                                        .addGap(0, 0, 0)
-                                        .addComponent(s73)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s136))
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s117)
-                                        .addGap(0, 0, 0)
-                                        .addComponent(s14)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s52)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(panel1Layout.createSequentialGroup()
-                                        .addComponent(s91)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s66)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s84)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s41)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(s23)
-                                                .addGroup(panel1Layout.createSequentialGroup()
-                                                    .addGap(25, 25, 25)
-                                                    .addComponent(s30)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s28, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(s134)))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                    .addComponent(s81)
-                                                    .addComponent(s5))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(panel1Layout.createSequentialGroup()
-                                                        .addComponent(s38)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(s49)
-                                                        .addGap(0, 0, 0)
-                                                        .addComponent(s37))
-                                                    .addGroup(panel1Layout.createSequentialGroup()
-                                                        .addComponent(s143)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(s109)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                        .addComponent(s115))))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                                .addComponent(s15)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s140)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s35)
-                                                .addGap(0, 0, 0)
-                                                .addComponent(s70))))
-                                    .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(panel1Layout.createSequentialGroup()
-                                            .addComponent(s53)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(s34)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(s124)
-                                            .addGap(25, 25, 25))
-                                        .addComponent(s58, javax.swing.GroupLayout.Alignment.TRAILING)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(s135)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(s50)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s65)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1, Short.MAX_VALUE)
+                        .addComponent(s120)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s127)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1, Short.MAX_VALUE)
+                        .addComponent(s73)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s136)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s91)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s66)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s84)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s41)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s81)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s143)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s109)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s115)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(s89)
-                            .addComponent(s106)
-                            .addComponent(s76))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(s111)
-                                    .addComponent(s77))
-                                .addGap(7, 7, 7))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                                .addComponent(s63)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
-                        .addComponent(btnDiagnosticar, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)))
-                .addContainerGap())
+                            .addComponent(s106))
+                        .addGap(68, 68, 68))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s48)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(25, 25, 25)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(s142)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(25, 25, 25)
+                                                .addComponent(s54)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s33)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s130))
+                                            .addComponent(s105))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s114)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s11)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s90)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s119)
+                                        .addGap(100, 100, 100))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(s23)
+                                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                            .addGap(25, 25, 25)
+                                            .addComponent(s30)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s28, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s134))))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s63)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(s59)
+                                .addGap(0, 0, 0)
+                                .addComponent(s126)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s61)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s118)
+                                .addGap(0, 0, 0)
+                                .addComponent(s19)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s83)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s78)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s104)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s26)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s21)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s123)
+                                .addGap(0, 0, 0)
+                                .addComponent(s36)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s113)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s129))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(175, 175, 175)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(200, 200, 200)
+                                        .addComponent(s29, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                        .addGap(225, 225, 225)
+                                        .addComponent(s15)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s140)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s35)
+                                        .addGap(0, 0, 0)
+                                        .addComponent(s70)))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s76))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(s56)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s57)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s133)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s107)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s8)
+                        .addGap(0, 0, 0)
+                        .addComponent(s31))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(150, 150, 150)
+                        .addComponent(s32)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                .addGap(25, 25, 25)
+                                .addComponent(s95))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(s121)
+                                .addGap(25, 25, 25)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s117)
+                        .addGap(0, 0, 0)
+                        .addComponent(s14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s52)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(100, 100, 100)
+                                .addComponent(s5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s38)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s49)
+                                .addGap(0, 0, 0)
+                                .addComponent(s37))
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addComponent(s53)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s34)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s124)
+                                    .addGap(25, 25, 25))
+                                .addComponent(s58, javax.swing.GroupLayout.Alignment.TRAILING))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(s99)
+                        .addGap(0, 0, 0)
+                        .addComponent(s116)
+                        .addGap(0, 0, 0)
+                        .addComponent(s17, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s110)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s101)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s62)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s55)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s80)
+                        .addGap(0, 0, 0)
+                        .addComponent(s112)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s87)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s67)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s42)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(25, 25, 25)
+                                .addComponent(s46, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s22))
+                            .addComponent(s103)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(75, 75, 75)
+                                .addComponent(s75)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s102)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(25, 25, 25)
+                                .addComponent(s82)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s122)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s27)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s111))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(s24)
+                                .addGap(0, 0, 0)
+                                .addComponent(s45)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s25)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s141)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s13)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s44)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s138, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s100)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(s20)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s64))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(50, 50, 50)
+                                        .addComponent(s1)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s79)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(s47)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s128)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s96))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(75, 75, 75)
+                                        .addComponent(s4)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s69)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s145))
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(s137, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(s97)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s74)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s93)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s51)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s6)
+                                        .addGap(25, 25, 25)))
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addGap(150, 150, 150)
+                                    .addComponent(s71)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s132)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s92)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s10)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s68)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s86)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s12)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s39)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s94)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s72)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s85)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s88))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s16)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s139)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s77)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        pestaniaPruebaVet.addTab("Prueba con Veterinario", panel1);
+        jScrollPane4.setViewportView(jPanel2);
+
+        pestaniaPruebaVet.addTab("Prueba con Veterinario", jScrollPane4);
 
         titulo.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         titulo.setText("ACODSEVEC - Clasificación de HC's con Algoritmo TF-IDF");
+
+        btnDiagnosticar.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        btnDiagnosticar.setText("Diagnosticar");
+        btnDiagnosticar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDiagnosticarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -2032,12 +2003,16 @@ public class DatasetVista extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(280, 280, 280)
-                        .addComponent(titulo))
-                    .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 1350, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(97, Short.MAX_VALUE))
+                        .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(61, 61, 61)
+                        .addComponent(titulo)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(btnDiagnosticar)
+                .addGap(352, 352, 352))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2045,8 +2020,10 @@ public class DatasetVista extends javax.swing.JFrame {
                 .addGap(22, 22, 22)
                 .addComponent(titulo)
                 .addGap(18, 18, 18)
-                .addComponent(pestaniaPruebaVet)
-                .addContainerGap())
+                .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnDiagnosticar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(21, 21, 21))
         );
 
         pack();
@@ -2124,29 +2101,25 @@ public class DatasetVista extends javax.swing.JFrame {
         v86 = (s86.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s86ActionPerformed
 
-    private void s10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s10ActionPerformed
-        v10 = (s10.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s10ActionPerformed
-
-    private void s71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s71ActionPerformed
-        v71 = (s71.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s71ActionPerformed
-
     private void s68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s68ActionPerformed
         v68 = (s68.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s68ActionPerformed
+
+    private void s10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s10ActionPerformed
+        v10 = (s10.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s10ActionPerformed
 
     private void s92ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s92ActionPerformed
         v92 = (s92.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s92ActionPerformed
 
-    private void s74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s74ActionPerformed
-        v74 = (s74.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s74ActionPerformed
-
     private void s132ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s132ActionPerformed
         v132 = (s132.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s132ActionPerformed
+
+    private void s71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s71ActionPerformed
+        v71 = (s71.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s71ActionPerformed
 
     private void s137ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s137ActionPerformed
         v137 = (s137.isSelected()) ? 1 : 0;
@@ -2164,9 +2137,9 @@ public class DatasetVista extends javax.swing.JFrame {
         v93 = (s93.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s93ActionPerformed
 
-    private void s69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s69ActionPerformed
-        v69 = (s69.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s69ActionPerformed
+    private void s74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s74ActionPerformed
+        v74 = (s74.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s74ActionPerformed
 
     private void s97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s97ActionPerformed
         v97 = (s97.isSelected()) ? 1 : 0;
@@ -2176,41 +2149,37 @@ public class DatasetVista extends javax.swing.JFrame {
         v77 = (s77.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s77ActionPerformed
 
-    private void s16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s16ActionPerformed
-        v16 = (s16.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s16ActionPerformed
-
     private void s139ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s139ActionPerformed
         v139 = (s139.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s139ActionPerformed
+
+    private void s16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s16ActionPerformed
+        v16 = (s16.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s16ActionPerformed
 
     private void s145ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s145ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_s145ActionPerformed
 
-    private void s141ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s141ActionPerformed
-        v141 = (s141.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s141ActionPerformed
+    private void s69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s69ActionPerformed
+        v69 = (s69.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s69ActionPerformed
 
-    private void s138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s138ActionPerformed
-        v138 = (s138.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s138ActionPerformed
-
-    private void s128ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s128ActionPerformed
-        v128 = (s128.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s128ActionPerformed
+    private void s4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s4ActionPerformed
+        v4 = (s4.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s4ActionPerformed
 
     private void s96ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s96ActionPerformed
         v96 = (s96.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s96ActionPerformed
 
-    private void s100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s100ActionPerformed
-        v100 = (s100.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s100ActionPerformed
+    private void s128ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s128ActionPerformed
+        v128 = (s128.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s128ActionPerformed
 
-    private void s4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s4ActionPerformed
-        v4 = (s4.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s4ActionPerformed
+    private void s47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s47ActionPerformed
+        v47 = (s47.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s47ActionPerformed
 
     private void s79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s79ActionPerformed
         v79 = (s79.isSelected()) ? 1 : 0;
@@ -2224,85 +2193,53 @@ public class DatasetVista extends javax.swing.JFrame {
         v64 = (s64.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s64ActionPerformed
 
-    private void s13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s13ActionPerformed
-        v13 = (s13.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s13ActionPerformed
+    private void s20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s20ActionPerformed
+        v20 = (s20.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s20ActionPerformed
 
-    private void s47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s47ActionPerformed
-        v47 = (s47.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s47ActionPerformed
+    private void s100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s100ActionPerformed
+        v100 = (s100.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s100ActionPerformed
+
+    private void s138ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s138ActionPerformed
+        v138 = (s138.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s138ActionPerformed
 
     private void s44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s44ActionPerformed
         v44 = (s44.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s44ActionPerformed
 
-    private void s20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s20ActionPerformed
-        v20 = (s20.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s20ActionPerformed
+    private void s13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s13ActionPerformed
+        v13 = (s13.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s13ActionPerformed
 
-    private void s111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s111ActionPerformed
-        v111 = (s111.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s111ActionPerformed
-
-    private void s122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s122ActionPerformed
-        v122 = (s122.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s122ActionPerformed
-
-    private void s102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s102ActionPerformed
-        v102 = (s102.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s102ActionPerformed
-
-    private void s82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s82ActionPerformed
-        v82 = (s82.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s82ActionPerformed
-
-    private void s27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s27ActionPerformed
-        v27 = (s27.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s27ActionPerformed
-
-    private void s45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s45ActionPerformed
-        v45 = (s45.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s45ActionPerformed
+    private void s141ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s141ActionPerformed
+        v141 = (s141.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s141ActionPerformed
 
     private void s25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s25ActionPerformed
         v25 = (s25.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s25ActionPerformed
 
+    private void s45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s45ActionPerformed
+        v45 = (s45.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s45ActionPerformed
+
     private void s24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s24ActionPerformed
         v24 = (s24.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s24ActionPerformed
 
-    private void s103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s103ActionPerformed
-        v103 = (s103.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s103ActionPerformed
-
-    private void s75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s75ActionPerformed
-        v75 = (s75.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s75ActionPerformed
-
-    private void s46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s46ActionPerformed
-        v46 = (s46.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s46ActionPerformed
+    private void s27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s27ActionPerformed
+        v27 = (s27.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s27ActionPerformed
 
     private void s22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s22ActionPerformed
         v22 = (s22.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s22ActionPerformed
 
-    private void s112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s112ActionPerformed
-        v112 = (s112.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s112ActionPerformed
-
-    private void s110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s110ActionPerformed
-        v110 = (s110.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s110ActionPerformed
-
-    private void s101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s101ActionPerformed
-        v101 = (s101.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s101ActionPerformed
-
-    private void s87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s87ActionPerformed
-        v87 = (s87.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s87ActionPerformed
+    private void s111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s111ActionPerformed
+        v111 = (s111.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s111ActionPerformed
 
     private void s80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s80ActionPerformed
         v80 = (s80.isSelected()) ? 1 : 0;
@@ -2316,17 +2253,45 @@ public class DatasetVista extends javax.swing.JFrame {
         v62 = (s62.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s62ActionPerformed
 
-    private void s55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s55ActionPerformed
-        v55 = (s55.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s55ActionPerformed
+    private void s110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s110ActionPerformed
+        v110 = (s110.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s110ActionPerformed
 
     private void s42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s42ActionPerformed
         v42 = (s42.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s42ActionPerformed
 
-    private void s134ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s134ActionPerformed
-        v134 = (s134.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s134ActionPerformed
+    private void s112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s112ActionPerformed
+        v112 = (s112.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s112ActionPerformed
+
+    private void s82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s82ActionPerformed
+        v82 = (s82.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s82ActionPerformed
+
+    private void s17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s17ActionPerformed
+        v17 = (s17.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s17ActionPerformed
+
+    private void s75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s75ActionPerformed
+        v75 = (s75.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s75ActionPerformed
+
+    private void s103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s103ActionPerformed
+        v103 = (s103.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s103ActionPerformed
+
+    private void s122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s122ActionPerformed
+        v122 = (s122.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s122ActionPerformed
+
+    private void s87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s87ActionPerformed
+        v87 = (s87.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s87ActionPerformed
+
+    private void s102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s102ActionPerformed
+        v102 = (s102.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s102ActionPerformed
 
     private void s116ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s116ActionPerformed
         v116 = (s116.isSelected()) ? 1 : 0;
@@ -2336,29 +2301,45 @@ public class DatasetVista extends javax.swing.JFrame {
         v99 = (s99.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s99ActionPerformed
 
+    private void s101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s101ActionPerformed
+        v101 = (s101.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s101ActionPerformed
+
+    private void s46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s46ActionPerformed
+        v46 = (s46.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s46ActionPerformed
+
+    private void s55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s55ActionPerformed
+        v55 = (s55.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s55ActionPerformed
+
     private void s63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s63ActionPerformed
         v63 = (s63.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s63ActionPerformed
 
-    private void s17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s17ActionPerformed
-        v17 = (s17.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s17ActionPerformed
+    private void s134ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s134ActionPerformed
+        v134 = (s134.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s134ActionPerformed
 
     private void s28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s28ActionPerformed
         v28 = (s28.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s28ActionPerformed
 
-    private void s23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s23ActionPerformed
-        v23 = (s23.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s23ActionPerformed
-
     private void s30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s30ActionPerformed
         v30 = (s30.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s30ActionPerformed
 
+    private void s23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s23ActionPerformed
+        v23 = (s23.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s23ActionPerformed
+
     private void s119ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s119ActionPerformed
         v119 = (s119.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s119ActionPerformed
+
+    private void s90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s90ActionPerformed
+        v90 = (s90.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s90ActionPerformed
 
     private void s11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s11ActionPerformed
         v11 = (s11.isSelected()) ? 1 : 0;
@@ -2368,45 +2349,41 @@ public class DatasetVista extends javax.swing.JFrame {
         v114 = (s114.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s114ActionPerformed
 
-    private void s90ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s90ActionPerformed
-        v90 = (s90.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s90ActionPerformed
-
-    private void s142ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s142ActionPerformed
-        v142 = (s142.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s142ActionPerformed
-
-    private void s135ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s135ActionPerformed
-        v135 = (s135.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s135ActionPerformed
-
     private void s130ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s130ActionPerformed
         v130 = (s130.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s130ActionPerformed
-
-    private void s105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s105ActionPerformed
-        v105 = (s105.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s105ActionPerformed
-
-    private void s48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s48ActionPerformed
-        v48 = (s48.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s48ActionPerformed
-
-    private void s54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s54ActionPerformed
-        v54 = (s54.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s54ActionPerformed
-
-    private void s40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s40ActionPerformed
-        v40 = (s40.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s40ActionPerformed
 
     private void s33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s33ActionPerformed
         v33 = (s33.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s33ActionPerformed
 
+    private void s54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s54ActionPerformed
+        v54 = (s54.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s54ActionPerformed
+
+    private void s105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s105ActionPerformed
+        v105 = (s105.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s105ActionPerformed
+
+    private void s142ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s142ActionPerformed
+        v142 = (s142.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s142ActionPerformed
+
+    private void s48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s48ActionPerformed
+        v48 = (s48.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s48ActionPerformed
+
     private void s9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s9ActionPerformed
         v9 = (s9.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s9ActionPerformed
+
+    private void s135ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s135ActionPerformed
+        v135 = (s135.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s135ActionPerformed
+
+    private void s40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s40ActionPerformed
+        v40 = (s40.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s40ActionPerformed
 
     private void s131ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s131ActionPerformed
         v131 = (s131.isSelected()) ? 1 : 0;
@@ -2424,41 +2401,13 @@ public class DatasetVista extends javax.swing.JFrame {
         v89 = (s89.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s89ActionPerformed
 
-    private void s109ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s109ActionPerformed
-        v109 = (s109.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s109ActionPerformed
-
     private void s115ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s115ActionPerformed
         v115 = (s115.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s115ActionPerformed
 
-    private void s65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s65ActionPerformed
-        v65 = (s65.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s65ActionPerformed
-
-    private void s136ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s136ActionPerformed
-        v136 = (s136.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s136ActionPerformed
-
-    private void s120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s120ActionPerformed
-        v120 = (s120.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s120ActionPerformed
-
-    private void s84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s84ActionPerformed
-        v84 = (s84.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s84ActionPerformed
-
-    private void s91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s91ActionPerformed
-        v91 = (s91.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s91ActionPerformed
-
-    private void s66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s66ActionPerformed
-        v66 = (s66.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s66ActionPerformed
-
-    private void s127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s127ActionPerformed
-        v127 = (s127.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s127ActionPerformed
+    private void s109ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s109ActionPerformed
+        v109 = (s109.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s109ActionPerformed
 
     private void s143ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s143ActionPerformed
         v143 = (s143.isSelected()) ? 1 : 0;
@@ -2472,65 +2421,97 @@ public class DatasetVista extends javax.swing.JFrame {
         v41 = (s41.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s41ActionPerformed
 
+    private void s84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s84ActionPerformed
+        v84 = (s84.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s84ActionPerformed
+
+    private void s66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s66ActionPerformed
+        v66 = (s66.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s66ActionPerformed
+
+    private void s91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s91ActionPerformed
+        v91 = (s91.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s91ActionPerformed
+
+    private void s136ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s136ActionPerformed
+        v136 = (s136.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s136ActionPerformed
+
     private void s73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s73ActionPerformed
         v73 = (s73.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s73ActionPerformed
+
+    private void s127ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s127ActionPerformed
+        v127 = (s127.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s127ActionPerformed
+
+    private void s120ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s120ActionPerformed
+        v120 = (s120.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s120ActionPerformed
+
+    private void s65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s65ActionPerformed
+        v65 = (s65.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s65ActionPerformed
+
+    private void s50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s50ActionPerformed
+        v50 = (s50.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s50ActionPerformed
 
     private void s2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s2ActionPerformed
         v2 = (s2.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s2ActionPerformed
 
-    private void s133ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s133ActionPerformed
-        v133 = (s133.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s133ActionPerformed
-
-    private void s125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s125ActionPerformed
-        v125 = (s125.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s125ActionPerformed
-
-    private void s124ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s124ActionPerformed
-        v124 = (s124.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s124ActionPerformed
-
-    private void s8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s8ActionPerformed
-        v8 = (s8.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s8ActionPerformed
-
-    private void s121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s121ActionPerformed
-        v121 = (s121.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s121ActionPerformed
-
-    private void s117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s117ActionPerformed
-        v117 = (s117.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s117ActionPerformed
-
-    private void s107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s107ActionPerformed
-        v107 = (s107.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s107ActionPerformed
-
-    private void s106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s106ActionPerformed
-        v106 = (s106.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s106ActionPerformed
-
     private void s98ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s98ActionPerformed
         v98 = (s98.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s98ActionPerformed
-
-    private void s95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s95ActionPerformed
-        v95 = (s95.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s95ActionPerformed
 
     private void s60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s60ActionPerformed
         v60 = (s60.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s60ActionPerformed
 
+    private void s18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s18ActionPerformed
+        v18 = (s18.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s18ActionPerformed
+
+    private void s43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s43ActionPerformed
+        v43 = (s43.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s43ActionPerformed
+
+    private void s125ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s125ActionPerformed
+        v125 = (s125.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s125ActionPerformed
+
+    private void s106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s106ActionPerformed
+        v106 = (s106.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s106ActionPerformed
+
+    private void s37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s37ActionPerformed
+        v37 = (s37.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s37ActionPerformed
+
+    private void s49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s49ActionPerformed
+        v49 = (s49.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s49ActionPerformed
+
+    private void s38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s38ActionPerformed
+        v38 = (s38.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s38ActionPerformed
+
+    private void s5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s5ActionPerformed
+        v5 = (s5.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s5ActionPerformed
+
     private void s58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s58ActionPerformed
         v58 = (s58.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s58ActionPerformed
 
-    private void s57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s57ActionPerformed
-        v57 = (s57.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s57ActionPerformed
+    private void s124ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s124ActionPerformed
+        v124 = (s124.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s124ActionPerformed
+
+    private void s34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s34ActionPerformed
+        v34 = (s34.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s34ActionPerformed
 
     private void s53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s53ActionPerformed
         v53 = (s53.isSelected()) ? 1 : 0;
@@ -2540,57 +2521,53 @@ public class DatasetVista extends javax.swing.JFrame {
         v52 = (s52.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s52ActionPerformed
 
-    private void s50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s50ActionPerformed
-        v50 = (s50.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s50ActionPerformed
-
-    private void s49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s49ActionPerformed
-        v49 = (s49.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s49ActionPerformed
-
-    private void s43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s43ActionPerformed
-        v43 = (s43.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s43ActionPerformed
-
-    private void s31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s31ActionPerformed
-        v31 = (s31.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s31ActionPerformed
-
-    private void s32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s32ActionPerformed
-        v32 = (s32.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s32ActionPerformed
-
-    private void s34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s34ActionPerformed
-        v34 = (s34.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s34ActionPerformed
-
-    private void s38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s38ActionPerformed
-        v38 = (s38.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s38ActionPerformed
-
-    private void s37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s37ActionPerformed
-        v37 = (s37.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s37ActionPerformed
-
-    private void s18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s18ActionPerformed
-        v18 = (s18.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s18ActionPerformed
-
-    private void s5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s5ActionPerformed
-        v5 = (s5.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s5ActionPerformed
+    private void s117ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s117ActionPerformed
+        v117 = (s117.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s117ActionPerformed
 
     private void s14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s14ActionPerformed
         v14 = (s14.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s14ActionPerformed
 
-    private void s113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s113ActionPerformed
-        v113 = (s113.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s113ActionPerformed
+    private void s95ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s95ActionPerformed
+        v95 = (s95.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s95ActionPerformed
 
-    private void s29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s29ActionPerformed
-        v29 = (s29.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s29ActionPerformed
+    private void s121ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s121ActionPerformed
+        v121 = (s121.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s121ActionPerformed
+
+    private void s32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s32ActionPerformed
+        v32 = (s32.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s32ActionPerformed
+
+    private void s31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s31ActionPerformed
+        v31 = (s31.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s31ActionPerformed
+
+    private void s8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s8ActionPerformed
+        v8 = (s8.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s8ActionPerformed
+
+    private void s107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s107ActionPerformed
+        v107 = (s107.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s107ActionPerformed
+
+    private void s133ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s133ActionPerformed
+        v133 = (s133.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s133ActionPerformed
+
+    private void s57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s57ActionPerformed
+        v57 = (s57.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s57ActionPerformed
+
+    private void s56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s56ActionPerformed
+        v56 = (s56.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s56ActionPerformed
+
+    private void s76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s76ActionPerformed
+        v76 = (s76.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s76ActionPerformed
 
     private void s70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s70ActionPerformed
         v70 = (s70.isSelected()) ? 1 : 0;
@@ -2604,21 +2581,21 @@ public class DatasetVista extends javax.swing.JFrame {
         v140 = (s140.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s140ActionPerformed
 
-    private void s76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s76ActionPerformed
-        v76 = (s76.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s76ActionPerformed
+    private void s15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s15ActionPerformed
+        v15 = (s15.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s15ActionPerformed
+
+    private void s29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s29ActionPerformed
+        v29 = (s29.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s29ActionPerformed
 
     private void s129ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s129ActionPerformed
         v129 = (s129.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s129ActionPerformed
 
-    private void s15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s15ActionPerformed
-        v15 = (s15.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s15ActionPerformed
-
-    private void s56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s56ActionPerformed
-        v56 = (s56.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s56ActionPerformed
+    private void s113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s113ActionPerformed
+        v113 = (s113.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s113ActionPerformed
 
     private void s3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s3ActionPerformed
         v3 = (s3.isSelected()) ? 1 : 0;
@@ -2627,6 +2604,10 @@ public class DatasetVista extends javax.swing.JFrame {
     private void s36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s36ActionPerformed
         v36 = (s36.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s36ActionPerformed
+
+    private void s123ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s123ActionPerformed
+        v123 = (s123.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s123ActionPerformed
 
     private void s21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s21ActionPerformed
         v21 = (s21.isSelected()) ? 1 : 0;
@@ -2668,10 +2649,6 @@ public class DatasetVista extends javax.swing.JFrame {
         v59 = (s59.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s59ActionPerformed
 
-    private void s123ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s123ActionPerformed
-        v123 = (s123.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s123ActionPerformed
-
     private void btnEstadisticasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstadisticasActionPerformed
         dslogic.estadisticas(txtResultados);
 
@@ -2681,15 +2658,15 @@ public class DatasetVista extends javax.swing.JFrame {
 
         txtMensaje.setText(null);
         txtMensaje.setText("Resultados de Prueba listos.");
-
-        panel1.setEnabled(true);
+        
+        btnDiagnosticar.setEnabled(true);
         dslogic = new DatasetLogica();
     }//GEN-LAST:event_btnEstadisticasActionPerformed
 
     private void btnEntrenarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntrenarActionPerformed
         txtResultados.setText(null);
-        panel1.setEnabled(false);
-        
+        btnDiagnosticar.setEnabled(false);
+
         dslogic.imprimirDiagnosticos(txtResultados);
         dslogic.generarConjuntoEnfermedades(txtResultados);
         dslogic.generarConjuntoSintomas(txtResultados);
@@ -2755,11 +2732,12 @@ public class DatasetVista extends javax.swing.JFrame {
     private javax.swing.JButton btnEstadisticas;
     private javax.swing.JButton btnProbar;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTextArea jTextArea1;
-    private java.awt.Panel panel1;
     private javax.swing.JTabbedPane pestaniaPruebaVet;
     private javax.swing.JRadioButton s1;
     private javax.swing.JRadioButton s10;
