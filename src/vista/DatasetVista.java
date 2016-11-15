@@ -27,6 +27,7 @@ public class DatasetVista extends javax.swing.JFrame {
      * Creates new form DatasetVista
      */
     public DatasetVista() {
+        getContentPane().setBackground(new java.awt.Color(139,204,255));
         initComponents();
     }
 
@@ -209,6 +210,8 @@ public class DatasetVista extends javax.swing.JFrame {
 
         pestaniaPruebaVet.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
 
+        jPanel1.setBackground(new java.awt.Color(139, 204, 255));
+
         btnProbar.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
         btnProbar.setText("Probar");
         btnProbar.setEnabled(false);
@@ -306,6 +309,8 @@ public class DatasetVista extends javax.swing.JFrame {
         );
 
         pestaniaPruebaVet.addTab("Análisis", jPanel1);
+
+        jPanel2.setBackground(new java.awt.Color(139, 204, 255));
 
         s59.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s59.setText("Ácaros");

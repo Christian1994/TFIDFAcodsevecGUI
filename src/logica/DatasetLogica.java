@@ -248,32 +248,46 @@ public class DatasetLogica {
     // Prueba con el Veterinario Experto
     public void pruebaVet(int[] testArray){
         
-        cadenaSimilaridad = new double [diseasesSet.size()];        
+        int cantidadSintomasSeleccionados = 0;
         
-        // Medida de similaridad de HC de prueba con cada enfermedad (clase)
-        for(int i = 0; i < cadenaSimilaridad.length; i++){
-            cadenaSimilaridad[i] = this.similaridad(matrizNormalizada[i], testArray);
-            System.out.print(diseasesSet.get(i) + ": " + cadenaSimilaridad[i] + "\n");
+        // Validar cadena de prueba para que el sistema arroje un diagnóstico
+        for(int i = 0; i < testArray.length; i++){
+            if(testArray[i] == 1)
+                cantidadSintomasSeleccionados++;
         }
+        
+        if(cantidadSintomasSeleccionados >= 2){
+            cadenaSimilaridad = new double [diseasesSet.size()];        
 
-        // Mayor similaridad determina el diagnóstico que arroje el sistema
-        int indice = 0;
-        double mayor = cadenaSimilaridad[indice];
-        for(int i = 0; i < cadenaSimilaridad.length; i++){
-            if(cadenaSimilaridad[i] > mayor){
-                mayor = cadenaSimilaridad[i];
-                indice = i;
+            // Medida de similaridad de HC de prueba con cada enfermedad (clase)
+            for(int i = 0; i < cadenaSimilaridad.length; i++){
+                cadenaSimilaridad[i] = this.similaridad(matrizNormalizada[i], testArray);
+                System.out.print(diseasesSet.get(i) + ": " + cadenaSimilaridad[i] + "\n");
             }
-        }
 
-        // Mensaje de Diagnóstico Presuntivo. Win!!!
-        JOptionPane.showMessageDialog(null, "El canino puede tener: " + diseasesSet.get(indice), "Diagnóstico.", JOptionPane.INFORMATION_MESSAGE);
-        
-        System.out.print("\n");
-        System.out.print("Diagnóstico: " + diseasesSet.get(indice) + "\n");
-        System.out.print("Mayor similaridad: " + mayor + "\n");
-        System.out.print("Enfermedad diagnosticada: " + diseasesSet.get(indice) + "\n");
-        System.out.print("\n");        
+            // Mayor similaridad determina el diagnóstico que arroje el sistema
+            int indice = 0;
+            double mayor = cadenaSimilaridad[indice];
+            for(int i = 0; i < cadenaSimilaridad.length; i++){
+                if(cadenaSimilaridad[i] > mayor){
+                    mayor = cadenaSimilaridad[i];
+                    indice = i;
+                }
+            }
+
+            // Mensaje de Diagnóstico Presuntivo. Win!!!
+            JOptionPane.showMessageDialog(null, "El canino puede tener: " + diseasesSet.get(indice), "Diagnóstico.", JOptionPane.INFORMATION_MESSAGE);
+
+            System.out.print("\n");
+            System.out.print("Diagnóstico: " + diseasesSet.get(indice) + "\n");
+            System.out.print("Mayor similaridad: " + mayor + "\n");
+            System.out.print("Enfermedad diagnosticada: " + diseasesSet.get(indice) + "\n");
+            System.out.print("\n");            
+        }
+        else{
+            // Debes seleccionar al menos dos síntomas para diagnosticar la enfermedad
+            JOptionPane.showMessageDialog(null, "Debes seleccionar al menos dos síntomas para diagnosticar la enfermedad.", "Error", JOptionPane.ERROR_MESSAGE);            
+        }    
     }
     
     // Muestra las estadísticas
