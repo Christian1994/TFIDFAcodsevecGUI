@@ -15,12 +15,12 @@ public class DatasetVista extends javax.swing.JFrame {
 
     DatasetLogica dslogic = new DatasetLogica();
     
-    int v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21;
+    int v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v19, v20, v21;
     int v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42;
     int v43, v44, v45, v46, v47, v48, v49, v50, v51, v52, v53, v54, v55, v56, v57, v58, v59, v60, v61, v62, v63;
     int v64, v65, v66, v67, v68, v69, v70, v71, v72, v73, v74, v75, v76, v77, v78, v79, v80, v81, v82, v83, v84;
     int v85, v86, v87, v88, v89, v90, v91, v92, v93, v94, v95, v96, v97, v98, v99, v100, v101, v102, v103, v104, v105;
-    int v106, v107, v108, v109, v110, v111, v112, v113, v114, v115, v116, v117, v118, v119, v120, v121, v122, v123, v124, v125, v126;
+    int v106, v107, v108, v109, v110, v111, v112, v113, v114, v115, v116, v117, v118, v119, v120, v121, v123, v125, v126;
     int v127, v128, v129, v130, v131, v132, v133, v134, v135, v136, v137, v138, v139, v140, v141, v142, v143;
     
     /**
@@ -89,7 +89,6 @@ public class DatasetVista extends javax.swing.JFrame {
         s52 = new javax.swing.JRadioButton();
         s53 = new javax.swing.JRadioButton();
         s34 = new javax.swing.JRadioButton();
-        s124 = new javax.swing.JRadioButton();
         s58 = new javax.swing.JRadioButton();
         s5 = new javax.swing.JRadioButton();
         s38 = new javax.swing.JRadioButton();
@@ -98,7 +97,6 @@ public class DatasetVista extends javax.swing.JFrame {
         s106 = new javax.swing.JRadioButton();
         s125 = new javax.swing.JRadioButton();
         s43 = new javax.swing.JRadioButton();
-        s18 = new javax.swing.JRadioButton();
         s60 = new javax.swing.JRadioButton();
         s98 = new javax.swing.JRadioButton();
         s2 = new javax.swing.JRadioButton();
@@ -145,7 +143,6 @@ public class DatasetVista extends javax.swing.JFrame {
         s116 = new javax.swing.JRadioButton();
         s102 = new javax.swing.JRadioButton();
         s87 = new javax.swing.JRadioButton();
-        s122 = new javax.swing.JRadioButton();
         s103 = new javax.swing.JRadioButton();
         s75 = new javax.swing.JRadioButton();
         s17 = new javax.swing.JRadioButton();
@@ -176,11 +173,10 @@ public class DatasetVista extends javax.swing.JFrame {
         s96 = new javax.swing.JRadioButton();
         s4 = new javax.swing.JRadioButton();
         s69 = new javax.swing.JRadioButton();
-        s145 = new javax.swing.JRadioButton();
+        s97 = new javax.swing.JRadioButton();
         s16 = new javax.swing.JRadioButton();
         s139 = new javax.swing.JRadioButton();
         s77 = new javax.swing.JRadioButton();
-        s97 = new javax.swing.JRadioButton();
         s74 = new javax.swing.JRadioButton();
         s93 = new javax.swing.JRadioButton();
         s51 = new javax.swing.JRadioButton();
@@ -206,8 +202,10 @@ public class DatasetVista extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("ACODSEVEC - Clasificación de HC's con Algoritmo TF-IDF");
         setResizable(false);
 
+        pestaniaPruebaVet.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         pestaniaPruebaVet.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
 
         jPanel1.setBackground(new java.awt.Color(139, 204, 255));
@@ -271,7 +269,7 @@ public class DatasetVista extends javax.swing.JFrame {
                             .addComponent(btnEstadisticas, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnProbar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 598, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1034, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
@@ -281,7 +279,7 @@ public class DatasetVista extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(20, 20, 20)
                     .addComponent(btnEntrenar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(625, Short.MAX_VALUE)))
+                    .addContainerGap(1061, Short.MAX_VALUE)))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -292,7 +290,7 @@ public class DatasetVista extends javax.swing.JFrame {
                         .addComponent(btnProbar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnEstadisticas, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 145, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 191, Short.MAX_VALUE)
                         .addComponent(tituloMensaje)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -305,7 +303,7 @@ public class DatasetVista extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addGap(21, 21, 21)
                     .addComponent(btnEntrenar, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(391, Short.MAX_VALUE)))
+                    .addContainerGap(437, Short.MAX_VALUE)))
         );
 
         pestaniaPruebaVet.addTab("Análisis", jPanel1);
@@ -592,14 +590,6 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s124.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s124.setText("Dificultad al orinar");
-        s124.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s124ActionPerformed(evt);
-            }
-        });
-
         s58.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s58.setText("Dificultad para orinar");
         s58.addActionListener(new java.awt.event.ActionListener() {
@@ -661,14 +651,6 @@ public class DatasetVista extends javax.swing.JFrame {
         s43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s43ActionPerformed(evt);
-            }
-        });
-
-        s18.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s18.setText("Dolor en las orejas");
-        s18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s18ActionPerformed(evt);
             }
         });
 
@@ -1040,14 +1022,6 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s122.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s122.setText("Ojo irritado");
-        s122.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s122ActionPerformed(evt);
-            }
-        });
-
         s103.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         s103.setText("Nariz seca");
         s103.addActionListener(new java.awt.event.ActionListener() {
@@ -1288,11 +1262,11 @@ public class DatasetVista extends javax.swing.JFrame {
             }
         });
 
-        s145.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s145.setText("Retención de líquidos");
-        s145.addActionListener(new java.awt.event.ActionListener() {
+        s97.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        s97.setText("Retención de líquidos");
+        s97.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s145ActionPerformed(evt);
+                s97ActionPerformed(evt);
             }
         });
 
@@ -1317,14 +1291,6 @@ public class DatasetVista extends javax.swing.JFrame {
         s77.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 s77ActionPerformed(evt);
-            }
-        });
-
-        s97.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
-        s97.setText("Retención de líquidos");
-        s97.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s97ActionPerformed(evt);
             }
         });
 
@@ -1491,37 +1457,33 @@ public class DatasetVista extends javax.swing.JFrame {
                     .addComponent(s15)
                     .addComponent(s35)
                     .addComponent(s76))
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(s124)
-                                .addComponent(s34)
-                                .addComponent(s53)
-                                .addComponent(s58)
-                                .addComponent(s133)
-                                .addComponent(s31)
-                                .addComponent(s57)
-                                .addComponent(s14)
-                                .addComponent(s121)
-                                .addComponent(s32)
-                                .addComponent(s107)
-                                .addComponent(s8)
-                                .addComponent(s117)
-                                .addComponent(s52)
-                                .addComponent(s95)
-                                .addComponent(s37)
-                                .addComponent(s49)
-                                .addComponent(s38)
-                                .addComponent(s56))
-                            .addGap(6, 6, 6))
-                        .addComponent(s5, javax.swing.GroupLayout.Alignment.TRAILING))
-                    .addComponent(s106, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s34)
+                    .addComponent(s53)
+                    .addComponent(s58)
+                    .addComponent(s133)
+                    .addComponent(s31)
+                    .addComponent(s57)
+                    .addComponent(s14)
+                    .addComponent(s121)
+                    .addComponent(s32)
+                    .addComponent(s107)
+                    .addComponent(s8)
+                    .addComponent(s117)
+                    .addComponent(s52)
+                    .addComponent(s95)
+                    .addComponent(s37)
+                    .addComponent(s49)
+                    .addComponent(s38)
+                    .addComponent(s56)
                     .addComponent(s125)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(s5, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(s106, javax.swing.GroupLayout.Alignment.TRAILING)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(s43)
-                    .addComponent(s18)
                     .addComponent(s60)
                     .addComponent(s98)
                     .addComponent(s2)
@@ -1537,16 +1499,17 @@ public class DatasetVista extends javax.swing.JFrame {
                     .addComponent(s115)
                     .addComponent(s89)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(jPanel2Layout.createSequentialGroup()
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(s120)
-                                .addComponent(s127))
-                            .addGap(120, 120, 120))
                         .addComponent(s136)
-                        .addComponent(s65, javax.swing.GroupLayout.Alignment.LEADING)))
-                .addGap(42, 42, 42)
+                        .addComponent(s65, javax.swing.GroupLayout.Alignment.LEADING))
+                    .addComponent(s120)
+                    .addComponent(s127)
+                    .addComponent(s7)
+                    .addComponent(s108))
+                .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(s99)
                     .addComponent(s63)
+                    .addComponent(s116)
                     .addComponent(s28)
                     .addComponent(s30)
                     .addComponent(s23)
@@ -1567,13 +1530,10 @@ public class DatasetVista extends javax.swing.JFrame {
                     .addComponent(s135)
                     .addComponent(s40)
                     .addComponent(s131)
-                    .addComponent(s108)
-                    .addComponent(s7)
                     .addComponent(s9))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(s62)
-                    .addComponent(s116)
                     .addComponent(s17)
                     .addComponent(s80)
                     .addComponent(s112)
@@ -1584,41 +1544,45 @@ public class DatasetVista extends javax.swing.JFrame {
                     .addComponent(s82)
                     .addComponent(s103)
                     .addComponent(s22)
-                    .addComponent(s122)
                     .addComponent(s102)
                     .addComponent(s46)
                     .addComponent(s75)
                     .addComponent(s67)
                     .addComponent(s101)
-                    .addComponent(s99)
                     .addComponent(s55)
-                    .addComponent(s111))
+                    .addComponent(s111)
+                    .addComponent(s45)
+                    .addComponent(s25)
+                    .addComponent(s24))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(s77)
-                    .addComponent(s139)
-                    .addComponent(s16)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(s77)
+                            .addComponent(s139)
+                            .addComponent(s16)
+                            .addComponent(s97)
+                            .addComponent(s93)
+                            .addComponent(s74)
+                            .addComponent(s51))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(s138)
                             .addComponent(s100)
+                            .addComponent(s44)
+                            .addComponent(s13)
+                            .addComponent(s141)
                             .addComponent(s47)
                             .addComponent(s128)
                             .addComponent(s96)
                             .addComponent(s4)
-                            .addComponent(s145)
                             .addComponent(s69)
                             .addComponent(s20)
                             .addComponent(s79)
                             .addComponent(s64)
-                            .addComponent(s1)
-                            .addComponent(s44)
-                            .addComponent(s13)
-                            .addComponent(s45)
-                            .addComponent(s25)
-                            .addComponent(s141)
-                            .addComponent(s24))
-                        .addGap(18, 18, 18)
+                            .addComponent(s1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(s12)
                             .addComponent(s39)
@@ -1633,225 +1597,94 @@ public class DatasetVista extends javax.swing.JFrame {
                             .addComponent(s132)
                             .addComponent(s71)
                             .addComponent(s137)
-                            .addComponent(s6)
-                            .addComponent(s51)
-                            .addComponent(s93)
-                            .addComponent(s74)
-                            .addComponent(s97))))
-                .addGap(0, 6, Short.MAX_VALUE))
+                            .addComponent(s6))
+                        .addGap(67, 67, 67))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(s125)
-                    .addComponent(s7))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(s43)
-                    .addComponent(s108))
-                .addGap(0, 0, 0)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(s18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(50, 50, 50)
-                                .addComponent(s2))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(s60)
+                                .addComponent(s141)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s98))))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(s131)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(50, 50, 50)
-                                .addComponent(s9))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(s40)
+                                .addComponent(s13)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s135)))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(s50)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s65)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1, Short.MAX_VALUE)
-                        .addComponent(s120)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s127)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1, Short.MAX_VALUE)
-                        .addComponent(s73)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s136)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s91)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s66)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s84)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s41)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s81)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s143)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s109)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s115)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(s89)
-                            .addComponent(s106))
-                        .addGap(68, 68, 68))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(s48)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(25, 25, 25)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(s44)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s138, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s100)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(s142)
-                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                                .addGap(25, 25, 25)
-                                                .addComponent(s54)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s33)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(s130))
-                                            .addComponent(s105))
+                                        .addComponent(s20)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s114)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s11)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s90)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s119)
-                                        .addGap(100, 100, 100))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(s23)
-                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                            .addGap(25, 25, 25)
-                                            .addComponent(s30)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(s28, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(s134))))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s63)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(s59)
-                                .addGap(0, 0, 0)
-                                .addComponent(s126)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s61)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s118)
-                                .addGap(0, 0, 0)
-                                .addComponent(s19)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s83)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s78)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s104)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s26)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s21)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s123)
-                                .addGap(0, 0, 0)
-                                .addComponent(s36)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s113)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s129))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(175, 175, 175)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(s64))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(200, 200, 200)
-                                        .addComponent(s29, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                        .addGap(225, 225, 225)
-                                        .addComponent(s15)
+                                        .addGap(50, 50, 50)
+                                        .addComponent(s1)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s140)
+                                        .addComponent(s79)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(s47)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s35)
-                                        .addGap(0, 0, 0)
-                                        .addComponent(s70)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s76))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(s56)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s57)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s133)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s107)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s8)
-                        .addGap(0, 0, 0)
-                        .addComponent(s31))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(150, 150, 150)
-                        .addComponent(s32)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addGap(25, 25, 25)
-                                .addComponent(s95))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(s121)
-                                .addGap(25, 25, 25)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s117)
-                        .addGap(0, 0, 0)
-                        .addComponent(s14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s52)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(100, 100, 100)
-                                .addComponent(s5)
+                                        .addComponent(s128)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s96))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(75, 75, 75)
+                                        .addComponent(s4)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s38)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s49)
-                                .addGap(0, 0, 0)
-                                .addComponent(s37))
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(s69))
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(s137, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addComponent(s53)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s34)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s124)
-                                    .addGap(25, 25, 25))
-                                .addComponent(s58, javax.swing.GroupLayout.Alignment.TRAILING))))
+                                    .addComponent(s6)
+                                    .addGap(25, 25, 25)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(s71)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s132)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s92)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s10)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s68)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s86)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s12)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s39)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s94)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s72)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s85)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s88)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s77, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s97)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s16)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s139)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s74)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s93)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s51))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(s99)
-                        .addGap(0, 0, 0)
-                        .addComponent(s116)
-                        .addGap(0, 0, 0)
                         .addComponent(s17, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(s110)
@@ -1887,103 +1720,221 @@ public class DatasetVista extends javax.swing.JFrame {
                             .addComponent(s102)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(25, 25, 25)
-                                .addComponent(s82)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s122)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s27)))
+                                .addComponent(s82)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s111))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(s24)
-                                .addGap(0, 0, 0)
-                                .addComponent(s45)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s25)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s141)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s13)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s44)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s138, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s100)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(s20)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s64))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(50, 50, 50)
-                                        .addComponent(s1)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s79)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(s47)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s128)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s96))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(75, 75, 75)
-                                        .addComponent(s4)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s69)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(s145))
+                        .addComponent(s27)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s111)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s24)
+                        .addGap(0, 0, 0)
+                        .addComponent(s45)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(s25))
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addComponent(s131)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(s137, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(s97)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s74)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s93)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s51)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(s6)
-                                        .addGap(25, 25, 25)))
                                 .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addGap(150, 150, 150)
-                                    .addComponent(s71)
+                                    .addGap(50, 50, 50)
+                                    .addComponent(s9))
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addComponent(s40)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s132)
+                                    .addComponent(s135)))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(s48)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addGap(25, 25, 25)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                            .addComponent(s142)
+                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                                    .addGap(25, 25, 25)
+                                                    .addComponent(s54)
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                    .addComponent(s33)
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                    .addComponent(s130))
+                                                .addComponent(s105))
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s114)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s11)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s90)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s119)
+                                            .addGap(100, 100, 100))
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(s23)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(25, 25, 25)
+                                                .addComponent(s30)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s28, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s134))))))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addComponent(s63)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s92)
+                                    .addComponent(s99))
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addGap(50, 50, 50)
+                                    .addComponent(s116))))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addGap(475, 475, 475)
+                                    .addComponent(s7)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s10)
+                                    .addComponent(s108))
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addComponent(s43)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s68)
+                                    .addComponent(s60)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s86)
+                                    .addComponent(s98)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s12)
+                                    .addComponent(s2)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s39)
+                                    .addComponent(s50)
+                                    .addGap(0, 0, 0)
+                                    .addComponent(s65)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s94)
+                                    .addComponent(s120)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s72)
+                                    .addComponent(s127)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s85)
+                                    .addComponent(s73)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(s88))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s139)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(s77)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(s136)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s91)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s66)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s84)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s41)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s81)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s143)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s109)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s115)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s89)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addComponent(s59)
+                                        .addGap(0, 0, 0)
+                                        .addComponent(s126)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s61)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s118)
+                                        .addGap(0, 0, 0)
+                                        .addComponent(s19)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s83)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s78)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s104)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s26)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s21)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s123)
+                                        .addGap(0, 0, 0)
+                                        .addComponent(s36)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s113)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(s129))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(175, 175, 175)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(200, 200, 200)
+                                                .addComponent(s29, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                                .addGap(225, 225, 225)
+                                                .addComponent(s15)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s140)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s35, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(s70)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(s76))
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                            .addComponent(s56)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s57)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s133)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s107)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s8)
+                                            .addGap(0, 0, 0)
+                                            .addComponent(s31))
+                                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                            .addGap(150, 150, 150)
+                                            .addComponent(s32)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                                    .addGap(25, 25, 25)
+                                                    .addComponent(s95))
+                                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                                    .addComponent(s121)
+                                                    .addGap(25, 25, 25)))
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s117)
+                                            .addGap(0, 0, 0)
+                                            .addComponent(s14)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s52)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s53)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s34)))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s58)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s5))
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addGap(400, 400, 400)
+                                    .addComponent(s38)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                            .addGap(25, 25, 25)
+                                            .addComponent(s49)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(s106))
+                                        .addComponent(s37))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(s125))))))
+                .addGap(0, 62, Short.MAX_VALUE))
         );
 
         jScrollPane4.setViewportView(jPanel2);
@@ -2006,53 +1957,38 @@ public class DatasetVista extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addComponent(titulo)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(60, 60, 60)
+                .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 1240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 60, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btnDiagnosticar)
-                .addGap(352, 352, 352))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(titulo)
+                        .addGap(296, 296, 296))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(btnDiagnosticar)
+                        .addGap(602, 602, 602))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
+                .addGap(37, 37, 37)
                 .addComponent(titulo)
-                .addGap(18, 18, 18)
-                .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnDiagnosticar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(21, 21, 21))
+                .addGap(39, 39, 39)
+                .addComponent(pestaniaPruebaVet, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnDiagnosticar)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnDiagnosticarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDiagnosticarActionPerformed
-        txtResultados.setText(null);
-        
-        int [] cadenaPruebaVet = {v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21,
-            v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42,
-            v43, v44, v45, v46, v47, v48, v49, v50, v51, v52, v53, v54, v55, v56, v57, v58, v59, v60, v61, v62, v63,
-            v64, v65, v66, v67, v68, v69, v70, v71, v72, v73, v74, v75, v76, v77, v78, v79, v80, v81, v82, v83, v84,
-            v85, v86, v87, v88, v89, v90, v91, v92, v93, v94, v95, v96, v97, v98, v99, v100, v101, v102, v103, v104, v105,
-            v106, v107, v108, v109, v110, v111, v112, v113, v114, v115, v116, v117, v118, v119, v120, v121, v122, v123, v124, v125, v126,
-            v127, v128, v129, v130, v131, v132, v133, v134, v135, v136, v137, v138, v139, v140, v141, v142, v143};
-
-        dslogic.generarConjuntoEnfermedades(txtResultados);
-        dslogic.generarConjuntoSintomas(txtResultados);
-        dslogic.entrenamiento(txtResultados);
-        dslogic.pruebaVet(cadenaPruebaVet);
-
+    private void limpiar(){
         s1.setSelected(false); s2.setSelected(false); s3.setSelected(false); s4.setSelected(false); s5.setSelected(false); s6.setSelected(false);
         s7.setSelected(false); s8.setSelected(false); s9.setSelected(false); s10.setSelected(false); s11.setSelected(false); s12.setSelected(false);
-        s13.setSelected(false); s14.setSelected(false); s15.setSelected(false); s16.setSelected(false); s17.setSelected(false); s18.setSelected(false);
+        s13.setSelected(false); s14.setSelected(false); s15.setSelected(false); s16.setSelected(false); s17.setSelected(false);
         s19.setSelected(false); s20.setSelected(false); s21.setSelected(false); s22.setSelected(false); s23.setSelected(false); s24.setSelected(false);
         s25.setSelected(false); s26.setSelected(false); s27.setSelected(false); s28.setSelected(false); s29.setSelected(false); s30.setSelected(false);
         s31.setSelected(false); s32.setSelected(false); s33.setSelected(false); s34.setSelected(false); s35.setSelected(false); s36.setSelected(false);
@@ -2070,11 +2006,44 @@ public class DatasetVista extends javax.swing.JFrame {
         s103.setSelected(false); s104.setSelected(false); s105.setSelected(false); s106.setSelected(false); s107.setSelected(false); s108.setSelected(false);
         s109.setSelected(false); s110.setSelected(false); s111.setSelected(false); s112.setSelected(false); s113.setSelected(false); s114.setSelected(false);
         s115.setSelected(false); s116.setSelected(false); s117.setSelected(false); s118.setSelected(false); s119.setSelected(false); s120.setSelected(false);
-        s121.setSelected(false); s122.setSelected(false); s123.setSelected(false); s124.setSelected(false); s125.setSelected(false); s126.setSelected(false);
+        s121.setSelected(false); s123.setSelected(false); s125.setSelected(false); s126.setSelected(false);
         s127.setSelected(false); s128.setSelected(false); s129.setSelected(false); s130.setSelected(false); s131.setSelected(false); s132.setSelected(false);
         s133.setSelected(false); s134.setSelected(false); s135.setSelected(false); s136.setSelected(false); s137.setSelected(false); s138.setSelected(false);
         s139.setSelected(false); s140.setSelected(false); s141.setSelected(false); s142.setSelected(false); s143.setSelected(false);
 
+        v1 = 0; v2 = 0; v3 = 0; v4 = 0; v5 = 0; v6 = 0; v7 = 0; v8 = 0; v9 = 0; v10 = 0;
+        v11 = 0; v12 = 0; v13 = 0; v14 = 0; v15 = 0; v16 = 0; v17 = 0; v19 = 0; v20 = 0;
+        v21 = 0; v22 = 0; v23 = 0; v24 = 0; v25 = 0; v26 = 0; v27 = 0; v28 = 0; v29 = 0; v30 = 0;
+        v31 = 0; v32 = 0; v33 = 0; v34 = 0; v35 = 0; v36 = 0; v37 = 0; v38 = 0; v39 = 0; v40 = 0;
+        v41 = 0; v42 = 0; v43 = 0; v44 = 0; v45 = 0; v46 = 0; v47 = 0; v48 = 0; v49 = 0; v50 = 0;
+        v51 = 0; v52 = 0; v53 = 0; v54 = 0; v55 = 0; v56 = 0; v57 = 0; v58 = 0; v59 = 0; v60 = 0; 
+        v61 = 0; v62 = 0; v63 = 0; v64 = 0; v65 = 0; v66 = 0; v67 = 0; v68 = 0; v69 = 0; v70 = 0;
+        v71 = 0; v72 = 0; v73 = 0; v74 = 0; v75 = 0; v76 = 0; v77 = 0; v78 = 0; v79 = 0; v80 = 0;
+        v81 = 0; v82 = 0; v83 = 0; v84 = 0; v85 = 0; v86 = 0; v87 = 0; v88 = 0; v89 = 0; v90 = 0;
+        v91 = 0; v92 = 0; v93 = 0; v94 = 0; v95 = 0; v96 = 0; v97 = 0; v98 = 0; v99 = 0; v100 = 0;
+        v101 = 0; v102 = 0; v103 = 0; v104 = 0; v105 = 0; v106 = 0; v107 = 0; v108 = 0; v109 = 0; v110 = 0;
+        v111 = 0; v112 = 0; v113 = 0; v114 = 0; v115 = 0; v116 = 0; v117 = 0; v118 = 0; v119 = 0; v120 = 0;
+        v121 = 0; v123 = 0; v125 = 0; v126 = 0; v127 = 0; v128 = 0; v129 = 0; v130 = 0;
+        v131 = 0; v132 = 0; v133 = 0; v134 = 0; v135 = 0; v136 = 0; v137 = 0; v138 = 0; v139 = 0; v140 = 0; v141 = 0; v142 = 0; v143 = 0;        
+    }
+    
+    private void btnDiagnosticarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDiagnosticarActionPerformed
+        txtResultados.setText(null);
+        
+        int [] cadenaPruebaVet = {v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v19, v20, v21,
+            v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42,
+            v43, v44, v45, v46, v47, v48, v49, v50, v51, v52, v53, v54, v55, v56, v57, v58, v59, v60, v61, v62, v63,
+            v64, v65, v66, v67, v68, v69, v70, v71, v72, v73, v74, v75, v76, v77, v78, v79, v80, v81, v82, v83, v84,
+            v85, v86, v87, v88, v89, v90, v91, v92, v93, v94, v95, v96, v97, v98, v99, v100, v101, v102, v103, v104, v105,
+            v106, v107, v108, v109, v110, v111, v112, v113, v114, v115, v116, v117, v118, v119, v120, v121, v123, v125, v126,
+            v127, v128, v129, v130, v131, v132, v133, v134, v135, v136, v137, v138, v139, v140, v141, v142, v143};
+
+        dslogic.generarConjuntoEnfermedades(txtResultados);
+        dslogic.generarConjuntoSintomas(txtResultados);
+        dslogic.entrenamiento(txtResultados);
+        dslogic.pruebaVet(cadenaPruebaVet);
+        this.limpiar();
+        
         dslogic = new DatasetLogica();
     }//GEN-LAST:event_btnDiagnosticarActionPerformed
 
@@ -2146,10 +2115,6 @@ public class DatasetVista extends javax.swing.JFrame {
         v74 = (s74.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s74ActionPerformed
 
-    private void s97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s97ActionPerformed
-        v97 = (s97.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s97ActionPerformed
-
     private void s77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s77ActionPerformed
         v77 = (s77.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s77ActionPerformed
@@ -2162,9 +2127,9 @@ public class DatasetVista extends javax.swing.JFrame {
         v16 = (s16.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s16ActionPerformed
 
-    private void s145ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s145ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_s145ActionPerformed
+    private void s97ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s97ActionPerformed
+        v97 = (s97.isSelected()) ? 1 : 0;
+    }//GEN-LAST:event_s97ActionPerformed
 
     private void s69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s69ActionPerformed
         v69 = (s69.isSelected()) ? 1 : 0;
@@ -2285,10 +2250,6 @@ public class DatasetVista extends javax.swing.JFrame {
     private void s103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s103ActionPerformed
         v103 = (s103.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s103ActionPerformed
-
-    private void s122ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s122ActionPerformed
-        v122 = (s122.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s122ActionPerformed
 
     private void s87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s87ActionPerformed
         v87 = (s87.isSelected()) ? 1 : 0;
@@ -2474,10 +2435,6 @@ public class DatasetVista extends javax.swing.JFrame {
         v60 = (s60.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s60ActionPerformed
 
-    private void s18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s18ActionPerformed
-        v18 = (s18.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s18ActionPerformed
-
     private void s43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s43ActionPerformed
         v43 = (s43.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s43ActionPerformed
@@ -2509,10 +2466,6 @@ public class DatasetVista extends javax.swing.JFrame {
     private void s58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s58ActionPerformed
         v58 = (s58.isSelected()) ? 1 : 0;
     }//GEN-LAST:event_s58ActionPerformed
-
-    private void s124ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s124ActionPerformed
-        v124 = (s124.isSelected()) ? 1 : 0;
-    }//GEN-LAST:event_s124ActionPerformed
 
     private void s34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s34ActionPerformed
         v34 = (s34.isSelected()) ? 1 : 0;
@@ -2770,9 +2723,7 @@ public class DatasetVista extends javax.swing.JFrame {
     private javax.swing.JRadioButton s12;
     private javax.swing.JRadioButton s120;
     private javax.swing.JRadioButton s121;
-    private javax.swing.JRadioButton s122;
     private javax.swing.JRadioButton s123;
-    private javax.swing.JRadioButton s124;
     private javax.swing.JRadioButton s125;
     private javax.swing.JRadioButton s126;
     private javax.swing.JRadioButton s127;
@@ -2794,11 +2745,9 @@ public class DatasetVista extends javax.swing.JFrame {
     private javax.swing.JRadioButton s141;
     private javax.swing.JRadioButton s142;
     private javax.swing.JRadioButton s143;
-    private javax.swing.JRadioButton s145;
     private javax.swing.JRadioButton s15;
     private javax.swing.JRadioButton s16;
     private javax.swing.JRadioButton s17;
-    private javax.swing.JRadioButton s18;
     private javax.swing.JRadioButton s19;
     private javax.swing.JRadioButton s2;
     private javax.swing.JRadioButton s20;
